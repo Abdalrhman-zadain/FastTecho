@@ -1,0 +1,126 @@
+/* ========================================
+   Homepage Responsive
+   ======================================== */
+
+@media (max-width: 1080px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .philosophy-grid,
+  .about-grid,
+  .contact-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel {
+    padding-inline: 2.8rem;
+  }
+
+  .slide {
+    flex-basis: calc((100% - 1rem) / 2);
+  }
+}
+
+@media (max-width: 860px) {
+  .nav-inner {
+    grid-template-columns: 1fr auto;
+    row-gap: 0.7rem;
+    padding-block: 0.6rem;
+  }
+
+  .logo-link {
+    height: 56px;
+  }
+
+  .nav-links {
+    grid-column: 1 / -1;
+    order: 3;
+    justify-content: center;
+    gap: 0.72rem 1rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .hero {
+    padding-top: calc(var(--nav-h) + 4.8rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(100% - 1.5rem, var(--container));
+  }
+
+  .section {
+    padding: 3.8rem 0;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: min(100%, 320px);
+  }
+
+  .stats-grid,
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel {
+    padding-inline: 2.2rem;
+  }
+
+  .slide {
+    flex-basis: 100%;
+  }
+
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-inner {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ========================================
+   RTL (Arabic) Overrides
+   ======================================== */
+
+html[dir="rtl"] body {
+  font-family: "Tajawal", "DM Sans", sans-serif;
+  text-align: right;
+}
+
+html[dir="rtl"] .section-label::before {
+  order: 2;
+}
+
+html[dir="rtl"] .hero,
+html[dir="rtl"] .services .section-top,
+html[dir="rtl"] .showcase-top,
+html[dir="rtl"] .stats .stat,
+html[dir="rtl"] .footer-inner {
+  text-align: center;
+}
+
+html[dir="rtl"] .contact-link {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .social-links {
+  justify-content: flex-start;
+}
+
+/* Keep carousel layout math stable in Arabic mode. */
+html[dir="rtl"] .carousel {
+  direction: ltr;
+}

@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiring Consulting | FastTechno®</title>
+    <meta
+      name="description"
+      content="Book a hiring consultation with FastTechno to build high-performing tech teams faster and with better fit."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:wght@400;500;700&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/base.css" />
+    <link rel="stylesheet" href="../../assets/css/nav.css" />
+    <link rel="stylesheet" href="../../assets/css/animations.css" />
+    <link rel="stylesheet" href="../../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../../assets/css/service-pages.css" />
+    <style>
+      .hc-page {
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .hc-hero {
+        padding: calc(var(--nav-h) + 3rem) 0 4rem;
+        background: linear-gradient(180deg, #05101a 0%, #0a1724 100%);
+      }
+
+      .hc-hero-wrap {
+        max-width: 860px;
+      }
+
+      .hc-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.38rem 0.9rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--accent-2);
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 1.1rem;
+      }
+
+      .hc-pill::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #3bf09d;
+      }
+
+      .hc-hero h1 {
+        margin-bottom: 0.95rem;
+      }
+
+      .hc-proof-row {
+        width: min(100% - 2.6rem, var(--container));
+        margin: -1.5rem auto 0;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .hc-proof-card {
+        background: linear-gradient(
+          160deg,
+          rgba(15, 34, 51, 0.96),
+          rgba(19, 42, 63, 0.92)
+        );
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        padding: 1.3rem 1rem;
+      }
+
+      .hc-proof-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        margin-bottom: 0.85rem;
+        display: grid;
+        place-items: center;
+        color: var(--accent-2);
+        background: rgba(82, 216, 255, 0.14);
+        border: 1px solid rgba(143, 241, 255, 0.28);
+      }
+
+      .hc-proof-icon svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+      }
+
+      .hc-proof-card p {
+        color: var(--text);
+        font-family: "Syne", sans-serif;
+        font-size: 1rem;
+      }
+
+      .hc-content {
+        padding: 4.2rem 0 5.2rem;
+        background: linear-gradient(180deg, #0a1724 0%, #091828 100%);
+      }
+
+      .hc-grid {
+        display: grid;
+        grid-template-columns: 1.55fr 1fr;
+        gap: 1.6rem;
+        align-items: start;
+      }
+
+      .hc-title {
+        color: #fff;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        margin-bottom: 0.45rem;
+      }
+
+      .hc-sub {
+        margin-bottom: 1.35rem;
+      }
+
+      .hc-form-wrap {
+        background: linear-gradient(
+          160deg,
+          rgba(15, 34, 51, 0.96),
+          rgba(19, 42, 63, 0.92)
+        );
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        padding: 1.35rem;
+      }
+
+      .hc-form-head {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .hc-head-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        display: grid;
+        place-items: center;
+        color: var(--accent-2);
+        background: rgba(82, 216, 255, 0.14);
+        border: 1px solid rgba(143, 241, 255, 0.28);
+      }
+
+      .hc-head-icon svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+      }
+
+      .hc-form-head h3 {
+        color: #fff;
+        font-size: clamp(1.2rem, 2.3vw, 1.45rem);
+        margin-bottom: 0.1rem;
+      }
+
+      .hc-form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.9rem;
+      }
+
+      .hc-form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.45rem;
+      }
+
+      .hc-form-group.hc-span-2 {
+        grid-column: 1 / -1;
+      }
+
+      .hc-form-group label {
+        color: var(--text);
+        font-family: "Syne", sans-serif;
+        font-size: 0.98rem;
+      }
+
+      .hc-form-group input,
+      .hc-form-group textarea,
+      .hc-form-group select {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: rgba(7, 20, 33, 0.76);
+        color: var(--text);
+        padding: 0.88rem 0.95rem;
+        font-size: 0.98rem;
+        font-family: "DM Sans", sans-serif;
+      }
+
+      .hc-form-group input::placeholder,
+      .hc-form-group textarea::placeholder {
+        color: #8eaac0;
+      }
+
+      .hc-form-group textarea {
+        min-height: 145px;
+        resize: vertical;
+      }
+
+      .hc-submit {
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+      }
+
+      .hc-submit-arrow {
+        font-size: 1.15rem;
+        line-height: 1;
+      }
+
+      .hc-form-status {
+        margin-top: 0.6rem;
+        min-height: 1.1em;
+      }
+
+      .hc-response-note {
+        margin-top: 1.2rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        background: rgba(82, 216, 255, 0.08);
+        padding: 1rem 1.2rem;
+      }
+
+      .hc-response-note h4 {
+        color: var(--accent-2);
+        font-size: 1.35rem;
+        margin-bottom: 0.35rem;
+      }
+
+      .hc-note-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .hc-note-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: var(--text-soft);
+      }
+
+      .hc-contact-col h2 {
+        color: #fff;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        margin-bottom: 0.45rem;
+      }
+
+      .hc-contact-col > p {
+        margin-bottom: 1.35rem;
+      }
+
+      .hc-contact-list {
+        display: grid;
+        gap: 0.85rem;
+      }
+
+      .hc-contact-item {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 0.75rem;
+        align-items: center;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: linear-gradient(
+          160deg,
+          rgba(15, 34, 51, 0.96),
+          rgba(19, 42, 63, 0.92)
+        );
+        padding: 0.8rem 0.95rem;
+      }
+
+      .hc-contact-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 11px;
+        display: grid;
+        place-items: center;
+        color: #fff;
+      }
+
+      .hc-contact-icon svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+      }
+
+      .hc-contact-icon.green {
+        background: #08b25f;
+      }
+      .hc-contact-icon.blue {
+        background: #109fd8;
+      }
+      .hc-contact-icon.indigo {
+        background: #2f62ea;
+      }
+      .hc-contact-icon.red {
+        background: #ff184f;
+      }
+
+      .hc-contact-label {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-soft);
+      }
+
+      .hc-contact-value {
+        color: #fff;
+        font-family: "Syne", sans-serif;
+        font-size: 1.15rem;
+      }
+
+      .hc-map-wrap {
+        margin-top: 0.9rem;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        overflow: hidden;
+        background: var(--bg-card);
+      }
+
+      .hc-map-wrap iframe {
+        width: 100%;
+        height: 230px;
+        border: 0;
+        display: block;
+      }
+
+      .hc-map-caption {
+        color: var(--text-soft);
+        font-family: "Syne", sans-serif;
+        font-size: 0.86rem;
+        margin-top: 0.45rem;
+      }
+
+      .hc-floating-cta {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 110;
+        border: none;
+        text-transform: none;
+        font-size: 0.98rem;
+      }
+
+      @media (max-width: 1120px) {
+        .hc-proof-row {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .hc-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .hc-proof-row {
+          grid-template-columns: 1fr;
+          margin-top: -1rem;
+        }
+
+        .hc-form-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="hc-page">
+    <header class="site-nav">
+      <div class="container nav-inner">
+        <a
+          href="../../index.html"
+          class="logo-link"
+          aria-label="FastTechno Home"
+        >
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+
+        <ul class="nav-links" aria-label="Primary navigation">
+          <li>
+            <a href="../../index.html" class="nav-link" data-i18n="nav_home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#philosophy"
+              class="nav-link"
+              data-i18n="nav_philosophy"
+              >Philosophy</a
+            >
+          </li>
+          <li class="nav-dropdown">
+            <a
+              href="../../index.html#services"
+              class="nav-link"
+              data-i18n="nav_services"
+              >Services</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../services/web-app-development.html"
+                  >Web &amp; App Development</a
+                >
+              </li>
+              <li>
+                <a href="../services/ecommerce-solutions.html"
+                  >E-commerce Solutions</a
+                >
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >IT &amp; Network Infrastructure</a
+                >
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >Cybersecurity &amp; Standards</a
+                >
+              </li>
+              <li>
+                <a href="../services/digital-marketing-seo.html"
+                  >Digital Marketing &amp; SEO</a
+                >
+              </li>
+              <li>
+                <a href="../services/data-expert-consulting.html"
+                  >Data &amp; Expert Consulting</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-link" data-i18n="nav_careers">Careers</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="open-positions.html" data-i18n="nav_open_positions"
+                  >Open Position</a
+                >
+              </li>
+              <li><a href="talent.html" data-i18n="nav_talent">Talent</a></li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="../../index.html#showcase"
+              class="nav-link"
+              data-i18n="nav_showcase"
+              >Showcase</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#about"
+              class="nav-link"
+              data-i18n="nav_about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#contact"
+              class="nav-link"
+              data-i18n="nav_contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            type="button"
+            class="btn lang-toggle"
+            id="langToggle"
+            aria-label="Switch language"
+          >
+            AR
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hc-hero">
+        <div class="container hc-hero-wrap reveal">
+          <a
+            href="open-positions.html"
+            class="back-link"
+            style="margin-bottom: 1.6rem"
+            data-i18n="career_hiring_back_open"
+            >Back to Open Positions</a
+          >
+          <span class="hc-pill" data-i18n="career_hiring_pill"
+            >Available Now</span
+          >
+          <h1 data-i18n="career_hiring_h1">Let's Build Your Tech Team</h1>
+          <p data-i18n="career_hiring_p">
+            Whether you need one specialist or a full offshore development
+            center, our team is ready to help. Tell us about your hiring goals
+            and we'll create a custom solution within 24 hours.
+          </p>
+        </div>
+      </section>
+
+      <section class="hc-proof-row reveal">
+        <article class="hc-proof-card">
+          <div class="hc-proof-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2a1 1 0 0 1 1 1v8.59l3.3 3.29a1 1 0 1 1-1.42 1.42l-3.59-3.58A1 1 0 0 1 11 12V3a1 1 0 0 1 1-1Zm0 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20Zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
+              />
+            </svg>
+          </div>
+          <p>Response within 1 hour</p>
+        </article>
+        <article class="hc-proof-card">
+          <div class="hc-proof-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2 4 5v6c0 5.05 3.41 9.79 8 11 4.59-1.21 8-5.95 8-11V5l-8-3Zm0 2.12L18 6.38V11c0 4.08-2.67 7.92-6 9.03C8.67 18.92 6 15.08 6 11V6.38l6-2.26Z"
+              />
+            </svg>
+          </div>
+          <p>100% confidential</p>
+        </article>
+        <article class="hc-proof-card">
+          <div class="hc-proof-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M16 11a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm-8 2a3 3 0 1 0-3-3 3 3 0 0 0 3 3Zm8 1c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4Zm-8 1c-2.34 0-7 1.17-7 3.5V20h5v-2c0-1.2.63-2.24 1.77-3Z"
+              />
+            </svg>
+          </div>
+          <p>12+ years of expertise</p>
+        </article>
+        <article class="hc-proof-card">
+          <div class="hc-proof-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2Zm4.3 7.7-5.1 5.1a1 1 0 0 1-1.4 0l-2.1-2.1a1 1 0 1 1 1.4-1.4l1.4 1.39 4.4-4.39a1 1 0 1 1 1.4 1.4Z"
+              />
+            </svg>
+          </div>
+          <p>90%+ talent retention</p>
+        </article>
+      </section>
+
+      <section class="hc-content">
+        <div class="container hc-grid">
+          <div>
+            <h2 class="hc-title" data-i18n="career_hiring_form_title">
+              Book Your Tech Hiring Consultation
+            </h2>
+            <p class="hc-sub" data-i18n="career_hiring_form_sub">
+              Fill in your details and a hiring specialist will reach out to you
+              personally.
+            </p>
+
+            <div class="hc-form-wrap reveal">
+              <div class="hc-form-head">
+                <div class="hc-head-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M21.99 2.52a1 1 0 0 0-1.03-.18L2.96 9.34a1 1 0 0 0 .06 1.88l7.08 2.31 2.31 7.08a1 1 0 0 0 .93.69h.05a1 1 0 0 0 .91-.59l7-18a1 1 0 0 0-.31-1.19ZM11 12.58 5.88 10.9l12.54-4.88L11 12.58Zm2.1 5.55-1.68-5.12 6.56-7.42-4.88 12.54Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3>Book Your Tech Hiring Consultation</h3>
+                  <p>
+                    Share your details and our team will contact you shortly.
+                  </p>
+                </div>
+              </div>
+
+              <form class="contact-form" action="#" method="post">
+                <div class="hc-form-grid">
+                  <div class="hc-form-group">
+                    <label for="fullName">Full Name</label>
+                    <input
+                      id="fullName"
+                      name="name"
+                      type="text"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                  <div class="hc-form-group">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="you@company.com"
+                      required
+                    />
+                  </div>
+                  <div class="hc-form-group">
+                    <label for="phone">Phone</label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      placeholder="+966 5X XXX XXXX"
+                    />
+                  </div>
+                  <div class="hc-form-group">
+                    <label for="company">Company</label>
+                    <input
+                      id="company"
+                      name="company"
+                      type="text"
+                      placeholder="Company"
+                    />
+                  </div>
+                  <div class="hc-form-group hc-span-2">
+                    <label for="jobTitle">Your Job Title</label>
+                    <input
+                      id="jobTitle"
+                      name="job_title"
+                      type="text"
+                      placeholder="e.g. Director of Applications, CTO, VP Engineering"
+                    />
+                  </div>
+                  <div class="hc-form-group">
+                    <label for="country">Country</label>
+                    <input
+                      id="country"
+                      name="country"
+                      type="text"
+                      placeholder="Country"
+                    />
+                  </div>
+                  <div class="hc-form-group">
+                    <label for="companySize">Company Size</label>
+                    <select id="companySize" name="company_size">
+                      <option value="">Select company size</option>
+                      <option>1-10</option>
+                      <option>11-50</option>
+                      <option>51-200</option>
+                      <option>201-500</option>
+                      <option>500+</option>
+                    </select>
+                  </div>
+                  <div class="hc-form-group hc-span-2">
+                    <label for="goals">Tell us about your hiring goals</label>
+                    <textarea
+                      id="goals"
+                      name="message"
+                      placeholder="What roles or teams are you looking to build?"
+                    ></textarea>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary submit-btn hc-submit"
+                >
+                  <span data-i18n="career_hiring_submit_btn"
+                    >Request Your Consultation</span
+                  >
+                  <span class="hc-submit-arrow">→</span>
+                </button>
+                <p id="formStatus" class="hc-form-status"></p>
+              </form>
+            </div>
+
+            <div class="hc-response-note reveal">
+              <h4>We typically respond within 1 hour</h4>
+              <div class="hc-note-list">
+                <span class="hc-note-item">⚡ No commitment required</span>
+                <span class="hc-note-item">🔒 100% confidential</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hc-contact-col reveal-right">
+            <h2>Reach Us Directly</h2>
+            <p>Prefer to connect directly? Here's how to reach our team.</p>
+
+            <div class="hc-contact-list">
+              <a
+                href="https://wa.me/962797006780"
+                class="hc-contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="hc-contact-icon green">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M19.7 14.4c-1.3 0-2.5-.2-3.6-.7a1 1 0 0 0-1 .2l-2.2 2.2a15.8 15.8 0 0 1-5-5l2.2-2.2a1 1 0 0 0 .2-1A10.6 10.6 0 0 1 9.6 4a1 1 0 0 0-1-1H4.3a1 1 0 0 0-1 1.1A17 17 0 0 0 20 20.8a1 1 0 0 0 1-1v-4.4a1 1 0 0 0-1-1Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="hc-contact-label">Phone</p>
+                  <p class="hc-contact-value">+966 53 948 8460</p>
+                </div>
+              </a>
+
+              <a href="mailto:info@fasttechno.online" class="hc-contact-item">
+                <div class="hc-contact-icon blue">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="hc-contact-label">Email</p>
+                  <p class="hc-contact-value">info@fasttechno.online</p>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/fasttechno-company-ba264a384?originalSubdomain=jo"
+                class="hc-contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="hc-contact-icon indigo">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M6.94 7.83a1.58 1.58 0 1 1 0-3.16 1.58 1.58 0 0 1 0 3.16ZM8.2 9.1H5.7V19h2.5V9.1Zm4 0h-2.4V19h2.4v-5.2c0-2.9 3.8-3.1 3.8 0V19h2.5v-6.2c0-4.8-5.5-4.6-6.3-2.2V9.1Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="hc-contact-label">LinkedIn</p>
+                  <p class="hc-contact-value">FastTechno on LinkedIn</p>
+                </div>
+              </a>
+
+              <a
+                href="https://maps.google.com/?q=Riyadh%20Saudi%20Arabia"
+                class="hc-contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="hc-contact-icon red">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2a7 7 0 0 0-7 7c0 4.6 5.2 10.6 6.3 11.8a1 1 0 0 0 1.4 0C13.8 19.6 19 13.6 19 9a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="hc-contact-label">Location</p>
+                  <p class="hc-contact-value">Riyadh, Saudi Arabia</p>
+                </div>
+              </a>
+
+              <a
+                href="https://maps.google.com/?q=Amman%20Jordan"
+                class="hc-contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="hc-contact-icon red">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 2a7 7 0 0 0-7 7c0 4.6 5.2 10.6 6.3 11.8a1 1 0 0 0 1.4 0C13.8 19.6 19 13.6 19 9a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p class="hc-contact-label">Location</p>
+                  <p class="hc-contact-value">Amman, Jordan</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="hc-map-wrap">
+              <iframe
+                title="Riyadh map"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Riyadh%20Saudi%20Arabia&z=12&output=embed"
+              ></iframe>
+            </div>
+            <p class="hc-map-caption">RIYADH, SAUDI ARABIA</p>
+
+            <div class="hc-map-wrap" style="margin-top: 0.8rem">
+              <iframe
+                title="Amman map"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Amman%20Jordan&z=12&output=embed"
+              ></iframe>
+            </div>
+            <p class="hc-map-caption">AMMAN, JORDAN</p>
+          </aside>
+        </div>
+      </section>
+
+      <a href="#" class="btn btn-primary hc-floating-cta">Hire Now</a>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a
+          href="../../index.html"
+          class="logo-link"
+          aria-label="FastTechno Home"
+        >
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+        <p class="footer-copy">© 2021-2026 FastTechno®</p>
+        <div class="country-badges" aria-label="Operating regions">
+          <span class="country-badge">Jordan</span>
+          <span class="country-badge">UAE</span>
+          <span class="country-badge">Saudi Arabia</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../assets/js/i18n.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/service-pages.js"></script>
+  </body>
+</html>

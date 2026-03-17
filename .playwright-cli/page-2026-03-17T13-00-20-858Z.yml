@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e5]
+      - list "Primary navigation" [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: ../../index.html
+        - listitem [ref=e9]:
+          - link "Philosophy" [ref=e10] [cursor=pointer]:
+            - /url: ../../index.html#philosophy
+        - listitem [ref=e11]:
+          - link "Services" [ref=e12] [cursor=pointer]:
+            - /url: ../../index.html#services
+        - listitem [ref=e13]:
+          - link "Careers" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Open Position" [ref=e17] [cursor=pointer]:
+                - /url: open-positions.html
+            - listitem [ref=e18]:
+              - link "Talent" [ref=e19] [cursor=pointer]:
+                - /url: talent.html
+        - listitem [ref=e20]:
+          - link "Showcase" [ref=e21] [cursor=pointer]:
+            - /url: ../../index.html#showcase
+        - listitem [ref=e22]:
+          - link "About" [ref=e23] [cursor=pointer]:
+            - /url: ../../index.html#about
+        - listitem [ref=e24]:
+          - link "Contact" [ref=e25] [cursor=pointer]:
+            - /url: ../../index.html#contact
+      - button "Switch language" [ref=e27] [cursor=pointer]: AR
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - link "Back to Home" [ref=e31] [cursor=pointer]:
+        - /url: ../../index.html#services
+        - img [ref=e32]
+        - generic [ref=e34]: Back to Home
+      - generic [ref=e35]:
+        - generic [ref=e36]: Careers
+        - heading "Open Positions" [level=1] [ref=e37]
+        - paragraph [ref=e38]: Join FastTechno and work with a team focused on engineering quality, business impact, and continuous growth.
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: Current Openings
+        - heading "Apply for a Role That Matches Your Skills" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - article [ref=e45]:
+          - heading "Frontend Developer" [level=3] [ref=e46]
+          - paragraph [ref=e47]: Build modern, high-performance user interfaces with strong attention to UX quality and clean code standards.
+          - link "Apply Now" [ref=e48] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - article [ref=e49]:
+          - heading "Backend Developer" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Design scalable APIs, optimize data flows, and ensure secure, resilient backend architecture.
+          - link "Apply Now" [ref=e52] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - article [ref=e53]:
+          - heading "Digital Marketing Specialist" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Drive measurable growth through SEO, paid campaigns, and data-driven content strategy.
+          - link "Apply Now" [ref=e56] [cursor=pointer]:
+            - /url: ../../index.html#contact
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Ready to Hire a High-Performing Tech Team?" [level=2] [ref=e60]
+        - paragraph [ref=e61]: Talk to our team and discover how we help you access top tech talent quickly and efficiently.
+      - link "Book Your Hiring Consultation" [ref=e62] [cursor=pointer]:
+        - /url: hiring-consulting.html
+  - contentinfo [ref=e63]:
+    - generic [ref=e64]:
+      - link "FastTechno Home" [ref=e65] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e66]
+      - paragraph [ref=e67]: © 2021-2026 FastTechno®
+      - generic "Operating regions" [ref=e68]: Jordan UAE Saudi Arabia

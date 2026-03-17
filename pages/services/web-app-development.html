@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web & App Development | FastTechno®</title>
+    <meta
+      name="description"
+      content="FastTechno® delivers custom web and mobile application development, UI/UX design, and high-performance software systems."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:wght@400;500;700&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/base.css" />
+    <link rel="stylesheet" href="../../assets/css/nav.css" />
+    <link rel="stylesheet" href="../../assets/css/animations.css" />
+    <link rel="stylesheet" href="../../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../../assets/css/service-pages.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <div class="container nav-inner">
+        <a href="../../index.html" class="logo-link" aria-label="FastTechno Home">
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+
+        <ul class="nav-links" aria-label="Primary navigation">
+          <li>
+            <a href="../../index.html" class="nav-link" data-i18n="nav_home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#philosophy"
+              class="nav-link"
+              data-i18n="nav_philosophy"
+              >Philosophy</a
+            >
+          </li>
+          <li class="nav-dropdown">
+            <a
+              href="../../index.html#services"
+              class="nav-link"
+              data-i18n="nav_services"
+              >Services</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a href="web-app-development.html">Web &amp; App Development</a>
+              </li>
+              <li>
+                <a href="ecommerce-solutions.html">E-commerce Solutions</a>
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >IT &amp; Network Infrastructure</a
+                >
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >Cybersecurity &amp; Standards</a
+                >
+              </li>
+              <li>
+                <a href="digital-marketing-seo.html"
+                  >Digital Marketing &amp; SEO</a
+                >
+              </li>
+              <li>
+                <a href="data-expert-consulting.html"
+                  >Data &amp; Expert Consulting</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-link" data-i18n="nav_careers">Careers</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../careers/open-positions.html" data-i18n="nav_open_positions"
+                  >Open Position</a
+                >
+              </li>
+              <li><a href="../careers/talent.html" data-i18n="nav_talent">Talent</a></li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="../../index.html#showcase"
+              class="nav-link"
+              data-i18n="nav_showcase"
+              >Showcase</a
+            >
+          </li>
+          <li>
+            <a href="../../index.html#about" class="nav-link" data-i18n="nav_about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#contact"
+              class="nav-link"
+              data-i18n="nav_contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            type="button"
+            class="btn lang-toggle"
+            id="langToggle"
+            aria-label="Switch language"
+          >
+            AR
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== SERVICE HERO ===== -->
+      <section class="service-hero">
+        <div class="container">
+          <a href="../../index.html#services" class="back-link">
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path
+                d="M14.78 5.22a.75.75 0 0 1 0 1.06L9.06 12l5.72 5.72a.75.75 0 0 1-1.06 1.06l-6.25-6.25a.75.75 0 0 1 0-1.06l6.25-6.25a.75.75 0 0 1 1.06 0Z"
+              />
+            </svg>
+            <span data-i18n="back_services">Back to Services</span>
+          </a>
+          <div class="service-hero-content">
+            <span class="section-label" data-i18n="service_dev_label"
+              >Web &amp; App Development</span
+            >
+            <h1 data-i18n="service_dev_hero_h1">
+              Custom Digital Solutions Built for Performance
+            </h1>
+            <p data-i18n="service_dev_hero_p">
+              We design and develop web applications, mobile apps, and software
+              platforms that drive real business results — fast, scalable, and
+              built to last.
+            </p>
+            <a
+              href="../../index.html#contact"
+              class="btn btn-primary"
+              data-i18n="service_dev_cta"
+              >Start Your Project</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== STATS COUNTER BAR ===== -->
+      <section class="stats-bar">
+        <div class="container stats-bar-grid">
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="50">0</span
+            ><span class="stat-suffix">+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="15">0</span
+            ><span class="stat-suffix">+</span>
+            <span class="stat-label">Countries Served</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="99" data-decimal=".9">0</span
+            ><span class="stat-suffix">%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+          <div class="stat-item reveal">
+            <span class="stat-number" data-target="4" data-decimal=".9">0</span
+            ><span class="stat-suffix">★</span>
+            <span class="stat-label">Average Rating</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="offerings">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label" data-i18n="service_dev_offer_label"
+              >What We Offer</span
+            >
+            <h2 data-i18n="service_dev_offer_h2">
+              End-to-End Development Services
+            </h2>
+          </div>
+
+          <div class="offering-grid">
+            <article class="offering-card reveal delay-1 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4zm2 3v12h14V7H5zm2 2h10v2H7V9zm0 4h6v2H7v-2z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_web_title">Website Development</h3>
+              <p data-i18n="service_dev_web_desc">
+                Responsive marketing sites, landing pages, and corporate
+                websites optimized for speed, SEO, and conversion.
+              </p>
+            </article>
+
+            <article class="offering-card reveal delay-2 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M7 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H7zm0 2h10v16H7V4zm3 14h4v1h-4v-1z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_mobile_title">
+                Mobile App Development
+              </h3>
+              <p data-i18n="service_dev_mobile_desc">
+                Native and cross-platform mobile applications for iOS and
+                Android, with intuitive UX and robust backends.
+              </p>
+            </article>
+
+            <article class="offering-card reveal delay-3 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_fullstack_title">
+                Full-Stack Applications
+              </h3>
+              <p data-i18n="service_dev_fullstack_desc">
+                Complex SaaS platforms, dashboards, and enterprise systems with
+                secure APIs, databases, and real-time capabilities.
+              </p>
+            </article>
+
+            <article class="offering-card reveal delay-1 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 3c-4.97 0-9 3.18-9 7.1 0 2.34 1.52 4.42 3.87 5.7-.62 2.28-1.37 3.2-1.37 3.2s3.1-.68 4.84-2.07c.54.07 1.09.1 1.66.1 4.97 0 9-3.18 9-7.1S16.97 3 12 3zm-3 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_uiux_title">UI/UX Design</h3>
+              <p data-i18n="service_dev_uiux_desc">
+                User research, wireframing, prototyping, and pixel-perfect
+                design systems that create compelling user experiences.
+              </p>
+            </article>
+
+            <article class="offering-card reveal delay-2 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M4 4h7V2H4a2 2 0 0 0-2 2v7h2V4zm16-2h-7v2h7v7h2V4a2 2 0 0 0-2-2zM4 13H2v7a2 2 0 0 0 2 2h7v-2H4v-7zm16 0v7h-7v2h7a2 2 0 0 0 2-2v-7h-2z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_api_title">API &amp; Integration</h3>
+              <p data-i18n="service_dev_api_desc">
+                RESTful and GraphQL APIs, third-party integrations, payment
+                gateways, and system connectivity solutions.
+              </p>
+            </article>
+
+            <article class="offering-card reveal delay-3 glow-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.49.49 0 0 0-.59-.22l-2.39.96a7.04 7.04 0 0 0-1.62-.94l-.36-2.54a.48.48 0 0 0-.48-.41h-3.84a.48.48 0 0 0-.48.41l-.36 2.54c-.59.22-1.13.53-1.62.94l-2.39-.96a.49.49 0 0 0-.59.22L2.74 8.87a.48.48 0 0 0 .12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.36 1.03.7 1.62.94l.36 2.54c.05.24.26.41.48.41h3.84c.24 0 .44-.17.48-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1 1 12 8.4a3.6 3.6 0 0 1 0 7.2z"
+                  />
+                </svg>
+              </div>
+              <h3 data-i18n="service_dev_maintenance_title">
+                Maintenance &amp; Support
+              </h3>
+              <p data-i18n="service_dev_maintenance_desc">
+                Ongoing monitoring, performance optimization, security updates,
+                and technical support to keep your systems running smoothly.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== WHY CHOOSE US ===== -->
+      <section class="section why-choose">
+        <div class="container">
+          <div class="why-choose-copy reveal">
+            <span class="section-label">Why Choose Us</span>
+            <h2>We Don't Just Build Software — We Solve Business Problems</h2>
+            <ul class="why-list">
+              <li>
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  />
+                </svg>
+                <span>Dedicated project manager for every engagement</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  />
+                </svg>
+                <span>Transparent timelines with weekly progress reports</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  />
+                </svg>
+                <span
+                  >Security-first approach with code reviews &amp; testing</span
+                >
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  />
+                </svg>
+                <span>Post-launch support and performance optimization</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path
+                    d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"
+                  />
+                </svg>
+                <span>Scalable architecture designed for future growth</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== KEY BENEFITS ===== -->
+      <section class="section benefits-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Key Benefits</span>
+            <h2>What You Get When You Work With Us</h2>
+          </div>
+          <div class="benefits-grid">
+            <div class="benefit-card reveal delay-1 glow-card">
+              <div class="benefit-value">99.9%</div>
+              <h3>Uptime Guarantee</h3>
+              <p>
+                Our systems are engineered for maximum reliability and
+                consistent performance around the clock.
+              </p>
+            </div>
+            <div class="benefit-card reveal delay-2 glow-card">
+              <div class="benefit-value">2x</div>
+              <h3>Faster Delivery</h3>
+              <p>
+                Agile methodology and reusable components mean your product
+                reaches the market faster.
+              </p>
+            </div>
+            <div class="benefit-card reveal delay-3 glow-card">
+              <div class="benefit-value">100%</div>
+              <h3>Code Ownership</h3>
+              <p>
+                You own every line of code. Full source code handover with
+                comprehensive documentation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROJECT SHOWCASE ===== -->
+      <section class="section project-showcase">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Our Work</span>
+            <h2>Projects That Speak for Themselves</h2>
+          </div>
+          <div class="project-gallery">
+            <figure class="project-item reveal delay-1">
+              <img
+                src="../../assets/media/showcase_3.jpg"
+                alt="Business website development project"
+              />
+              <figcaption>Corporate Website Redesign</figcaption>
+            </figure>
+            <figure class="project-item reveal delay-2">
+              <img
+                src="../../assets/media/showcase_5.jpg"
+                alt="Enterprise app development"
+              />
+              <figcaption>Enterprise App Platform</figcaption>
+            </figure>
+            <figure class="project-item reveal delay-3">
+              <img
+                src="../../assets/media/img_extra_7.jpg"
+                alt="Modern product UI"
+              />
+              <figcaption>SaaS Dashboard UI</figcaption>
+            </figure>
+            <figure class="project-item reveal delay-1">
+              <img
+                src="../../assets/media/img_extra_8.jpg"
+                alt="Custom platform development"
+              />
+              <figcaption>E-commerce Platform</figcaption>
+            </figure>
+            <figure class="project-item reveal delay-2">
+              <img
+                src="../../assets/media/img_extra_9.jpg"
+                alt="Business digitalization project"
+              />
+              <figcaption>Operations Digitalization</figcaption>
+            </figure>
+            <figure class="project-item reveal delay-3">
+              <img
+                src="../../assets/media/img_extra_10.jpg"
+                alt="Analytics and monitoring system"
+              />
+              <figcaption>Analytics Dashboard</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROCESS / VISUAL TIMELINE ===== -->
+      <section class="section dev-timeline-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Our Process</span>
+            <h2>How We Deliver Your Project</h2>
+          </div>
+
+          <div class="dev-timeline reveal">
+            <div class="tl-track"></div>
+            <div class="tl-node">
+              <div class="tl-dot"></div>
+              <div class="tl-card glow-card">
+                <span class="tl-week">Week 1–2</span>
+                <h3>Discovery &amp; Planning</h3>
+                <p>
+                  Requirements analysis, scope definition, and a detailed
+                  project roadmap with clear milestones.
+                </p>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot"></div>
+              <div class="tl-card glow-card">
+                <span class="tl-week">Week 3–4</span>
+                <h3>Design &amp; Prototyping</h3>
+                <p>
+                  Wireframes, high-fidelity mockups, and interactive prototypes
+                  validated with stakeholders.
+                </p>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot"></div>
+              <div class="tl-card glow-card">
+                <span class="tl-week">Week 5–10</span>
+                <h3>Development &amp; Testing</h3>
+                <p>
+                  Agile sprints with CI/CD, code reviews, automated testing, and
+                  weekly progress demos.
+                </p>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot"></div>
+              <div class="tl-card glow-card">
+                <span class="tl-week">Week 11–12</span>
+                <h3>QA &amp; Optimization</h3>
+                <p>
+                  Performance tuning, security audits, cross-browser /
+                  cross-device testing, and UAT sign-off.
+                </p>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot"></div>
+              <div class="tl-card glow-card">
+                <span class="tl-week">Launch &amp; Beyond</span>
+                <h3>Deployment &amp; Support</h3>
+                <p>
+                  Zero-downtime deployment, monitoring setup, documentation
+                  handover, and ongoing maintenance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CLIENT FEEDBACK ===== -->
+      <section class="section testimonials-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Client Feedback</span>
+            <h2>What Our Clients Say About Us</h2>
+          </div>
+
+          <div class="testimonials-grid">
+            <blockquote class="testimonial-card reveal delay-1 glow-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                &ldquo;FastTechno transformed our outdated website into a
+                modern, high-converting platform. The team was responsive,
+                professional, and delivered ahead of schedule. Our leads doubled
+                within the first month.&rdquo;
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">A</div>
+                <div>
+                  <cite class="author-name">Ahmad Al-Khatib</cite>
+                  <span class="author-role">CEO, TransJordan Logistics</span>
+                </div>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card reveal delay-2 glow-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                &ldquo;They built our inventory system from scratch and it's
+                been flawless. Real-time tracking across all our stores, mobile
+                access for managers, and the analytics dashboard saves us hours
+                every week.&rdquo;
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">S</div>
+                <div>
+                  <cite class="author-name">Sara Mansour</cite>
+                  <span class="author-role"
+                    >Operations Director, RetailPro Group</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card reveal delay-3 glow-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial-text">
+                &ldquo;The mobile app FastTechno built for our restaurant chain
+                has been a game-changer. Online orders increased by 200% and
+                customer complaints dropped significantly. Highly recommend
+                their team.&rdquo;
+              </p>
+              <footer class="testimonial-author">
+                <div class="author-avatar">K</div>
+                <div>
+                  <cite class="author-name">Khaled Nasser</cite>
+                  <span class="author-role"
+                    >Founder, Taste &amp; Go Restaurants</span
+                  >
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CLIENT LOGOS ===== -->
+      <section class="section logos-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Trusted By</span>
+            <h2>Companies That Rely on Us</h2>
+          </div>
+          <div class="logos-track-wrapper reveal">
+            <div class="logos-track">
+              <span class="logo-text">TransJordan Logistics</span>
+              <span class="logo-text">RetailPro Group</span>
+              <span class="logo-text">Taste &amp; Go</span>
+              <span class="logo-text">MedTech Solutions</span>
+              <span class="logo-text">BuildSmart Inc.</span>
+              <span class="logo-text">GreenEnergy Co.</span>
+              <span class="logo-text">PayFlow Systems</span>
+              <span class="logo-text">EduLearn Platform</span>
+              <!-- duplicate for seamless scroll -->
+              <span class="logo-text">TransJordan Logistics</span>
+              <span class="logo-text">RetailPro Group</span>
+              <span class="logo-text">Taste &amp; Go</span>
+              <span class="logo-text">MedTech Solutions</span>
+              <span class="logo-text">BuildSmart Inc.</span>
+              <span class="logo-text">GreenEnergy Co.</span>
+              <span class="logo-text">PayFlow Systems</span>
+              <span class="logo-text">EduLearn Platform</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TEAM SPOTLIGHT ===== -->
+      <section class="section team-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Our Team</span>
+            <h2>Meet the People Behind Your Project</h2>
+          </div>
+          <div class="team-grid">
+            <div class="team-card reveal delay-1 glow-card">
+              <div class="team-avatar">O</div>
+              <h3>Omar Haddad</h3>
+              <span class="team-role">Lead Full-Stack Developer</span>
+              <p>
+                8+ years building scalable web apps with React, Node.js, and
+                cloud platforms.
+              </p>
+            </div>
+            <div class="team-card reveal delay-2 glow-card">
+              <div class="team-avatar">L</div>
+              <h3>Lina Khouri</h3>
+              <span class="team-role">Senior UI/UX Designer</span>
+              <p>
+                Crafts intuitive, research-driven interfaces used by thousands
+                daily.
+              </p>
+            </div>
+            <div class="team-card reveal delay-3 glow-card">
+              <div class="team-avatar">R</div>
+              <h3>Rami Salem</h3>
+              <span class="team-role">Mobile App Engineer</span>
+              <p>
+                Flutter &amp; React Native specialist with 20+ apps shipped to
+                App Store &amp; Play Store.
+              </p>
+            </div>
+            <div class="team-card reveal delay-1 glow-card">
+              <div class="team-avatar">D</div>
+              <h3>Dana Masri</h3>
+              <span class="team-role">QA &amp; DevOps Lead</span>
+              <p>
+                Ensures every release is bulletproof with automated testing and
+                CI/CD pipelines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PRICING ===== -->
+      <section class="section pricing-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">Pricing</span>
+            <h2>Transparent Packages for Every Stage</h2>
+          </div>
+          <div class="pricing-grid">
+            <div class="pricing-card reveal delay-1 glow-card">
+              <div class="pricing-header">
+                <h3>Starter</h3>
+                <div class="pricing-price">$2,500<span>/project</span></div>
+              </div>
+              <p class="pricing-desc">
+                Perfect for MVPs, landing pages, and small business websites.
+              </p>
+              <ul class="pricing-features">
+                <li>Up to 5 pages / screens</li>
+                <li>Responsive design</li>
+                <li>Basic SEO setup</li>
+                <li>Contact form integration</li>
+                <li>2 rounds of revisions</li>
+                <li>1 month post-launch support</li>
+              </ul>
+              <a href="../../index.html#contact" class="btn btn-outline"
+                >Get Started</a
+              >
+            </div>
+            <div class="pricing-card pricing-featured reveal delay-2 glow-card">
+              <div class="pricing-badge">Most Popular</div>
+              <div class="pricing-header">
+                <h3>Growth</h3>
+                <div class="pricing-price">$8,000<span>/project</span></div>
+              </div>
+              <p class="pricing-desc">
+                For growing businesses needing custom apps and dashboards.
+              </p>
+              <ul class="pricing-features">
+                <li>Up to 15 pages / screens</li>
+                <li>Custom UI/UX design</li>
+                <li>Backend &amp; API development</li>
+                <li>Database architecture</li>
+                <li>User authentication &amp; roles</li>
+                <li>Payment gateway integration</li>
+                <li>3 months post-launch support</li>
+              </ul>
+              <a href="../../index.html#contact" class="btn btn-primary"
+                >Get Started</a
+              >
+            </div>
+            <div class="pricing-card reveal delay-3 glow-card">
+              <div class="pricing-header">
+                <h3>Enterprise</h3>
+                <div class="pricing-price">Custom<span>/quote</span></div>
+              </div>
+              <p class="pricing-desc">
+                Full-scale platforms, SaaS products, and complex systems.
+              </p>
+              <ul class="pricing-features">
+                <li>Unlimited pages / screens</li>
+                <li>Full-stack architecture</li>
+                <li>Microservices &amp; cloud deploy</li>
+                <li>Advanced security &amp; compliance</li>
+                <li>Dedicated project manager</li>
+                <li>CI/CD &amp; DevOps setup</li>
+                <li>12 months priority support</li>
+              </ul>
+              <a href="../../index.html#contact" class="btn btn-outline"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== FAQ ===== -->
+      <section class="section faq-section">
+        <div class="container">
+          <div class="section-top reveal">
+            <span class="section-label">FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="faq-list reveal">
+            <details class="faq-item">
+              <summary class="faq-question">
+                How long does a typical project take?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Most projects take between 6–14 weeks depending on complexity.
+                  A simple website can be delivered in 3–4 weeks, while a full
+                  SaaS platform may take 12–20 weeks. We'll provide a clear
+                  timeline during the discovery phase.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question">Do I own the source code?</summary>
+              <div class="faq-answer">
+                <p>
+                  Yes — 100%. Once the project is completed and paid for, all
+                  source code, design files, and documentation are fully
+                  transferred to you. No vendor lock-in, ever.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question">
+                What's your payment structure?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  We typically work with a 40/30/30 model: 40% upfront to begin,
+                  30% at the design milestone, and the final 30% upon delivery.
+                  For enterprise contracts, we offer flexible monthly billing.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question">
+                Can you work with our existing team?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Absolutely. We regularly embed with in-house teams as
+                  dedicated developers, designers, or project leads. We use your
+                  existing tools (Jira, Slack, GitHub, etc.) and adapt to your
+                  workflow.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question">
+                Do you provide post-launch support?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Yes. Every package includes post-launch support (1–12 months
+                  depending on the plan). We handle bug fixes, security patches,
+                  performance monitoring, and feature updates.
+                </p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-question">
+                What technologies do you specialize in?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Our core stack includes React, Next.js, Vue.js, Node.js,
+                  Python, Flutter, React Native, PostgreSQL, MongoDB, AWS, and
+                  Docker. We choose the best tools for each project's unique
+                  needs.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== FREE CONSULTATION BANNER ===== -->
+      <section class="consult-banner">
+        <div class="container consult-inner reveal">
+          <div class="consult-copy">
+            <h2>Book a Free 30-Minute Consultation</h2>
+            <p>
+              Let's discuss your project, explore possibilities, and give you a
+              clear roadmap — no commitment required.
+            </p>
+          </div>
+          <a href="../../index.html#contact" class="btn btn-primary btn-lg"
+            >Book Now — It's Free</a
+          >
+        </div>
+      </section>
+
+      <!-- ===== CTA ===== -->
+      <section class="section service-cta">
+        <div class="container">
+          <div class="cta-box reveal glow-card">
+            <h2 data-i18n="service_dev_cta_h2">
+              Ready to Build Something Great?
+            </h2>
+            <p data-i18n="service_dev_cta_p">
+              Let's discuss your project and turn your vision into a
+              high-performing digital product.
+            </p>
+            <a
+              href="../../index.html#contact"
+              class="btn btn-primary"
+              data-i18n="service_dev_cta_btn"
+              >Get in Touch</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="../../index.html" class="logo-link" aria-label="FastTechno Home">
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+        <p class="footer-copy">© 2021-2026 FastTechno®</p>
+        <div class="country-badges" aria-label="Operating regions">
+          <span class="country-badge">Jordan</span>
+          <span class="country-badge">UAE</span>
+          <span class="country-badge">Saudi Arabia</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../assets/js/i18n.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/service-pages.js"></script>
+  </body>
+</html>
+
+

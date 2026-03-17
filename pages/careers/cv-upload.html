@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Your CV | FastTechno®</title>
+    <meta
+      name="description"
+      content="Upload your CV and join the FastTechno talent network. Our recruiters will match you with the right tech opportunity."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:wght@400;500;700&family=Tajawal:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/base.css" />
+    <link rel="stylesheet" href="../../assets/css/nav.css" />
+    <link rel="stylesheet" href="../../assets/css/animations.css" />
+    <link rel="stylesheet" href="../../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../../assets/css/service-pages.css" />
+
+    <style>
+      /* ============================================================
+         CV Upload Page – Custom Styles
+         ============================================================ */
+
+      .cv-section {
+        padding: 4rem 0 6rem;
+      }
+
+      .cv-wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        background: var(--bg-card);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-lg);
+        padding: 3rem 3rem 2.5rem;
+        box-shadow: 0 0 60px rgba(82, 216, 255, 0.06);
+      }
+
+      .cv-form-head {
+        text-align: center;
+        margin-bottom: 2.4rem;
+        padding-bottom: 1.8rem;
+        border-bottom: 1px solid var(--line);
+      }
+      .cv-form-head .section-label {
+        display: block;
+        margin-bottom: 0.6rem;
+      }
+      .cv-form-head h2 {
+        font-family: "Syne", sans-serif;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
+        font-weight: 800;
+        color: var(--text);
+        margin-bottom: 0.5rem;
+      }
+      .cv-form-head p {
+        color: var(--text-soft);
+        font-size: 0.92rem;
+      }
+
+      .cv-form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+      }
+      .cv-form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+      .cv-form-group.cv-span-2 {
+        grid-column: 1 / -1;
+      }
+
+      .cv-form-group label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--text-soft);
+      }
+
+      .cv-form-group input,
+      .cv-form-group textarea,
+      .cv-form-group select {
+        background: var(--bg-card-strong);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        color: var(--text);
+        padding: 0.75rem 1rem;
+        font-size: 0.92rem;
+        font-family: inherit;
+        transition:
+          border-color var(--t),
+          box-shadow var(--t);
+        outline: none;
+      }
+      .cv-form-group input:focus,
+      .cv-form-group textarea:focus,
+      .cv-form-group select:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(82, 216, 255, 0.12);
+      }
+      .cv-form-group input::placeholder,
+      .cv-form-group textarea::placeholder {
+        color: var(--text-soft);
+        opacity: 0.6;
+      }
+
+      .cv-form-group textarea {
+        resize: vertical;
+        min-height: 110px;
+      }
+
+      .cv-form-group select option {
+        background: var(--bg-card-strong);
+        color: var(--text);
+      }
+
+      /* File upload zone */
+      .cv-file-zone {
+        position: relative;
+        border: 2px dashed var(--line-strong);
+        border-radius: var(--radius-md);
+        padding: 2rem 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        transition:
+          border-color var(--t),
+          background var(--t);
+        background: var(--bg-card-strong);
+      }
+      .cv-file-zone:hover {
+        border-color: var(--accent);
+        background: rgba(82, 216, 255, 0.03);
+      }
+      .cv-file-zone input[type="file"] {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+      }
+      .cv-file-icon {
+        color: var(--accent);
+        margin: 0 auto 0.8rem;
+        display: block;
+      }
+      .cv-file-label {
+        font-weight: 600;
+        color: var(--text);
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+      }
+      .cv-file-hint {
+        color: var(--text-soft);
+        font-size: 0.78rem;
+      }
+      .cv-file-name {
+        margin-top: 0.6rem;
+        font-size: 0.82rem;
+        color: var(--accent);
+        font-weight: 600;
+        min-height: 1.1em;
+      }
+
+      /* Submit row */
+      .cv-submit-row {
+        margin-top: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .cv-submit-row .btn {
+        min-width: 280px;
+      }
+
+      .cv-form-status {
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: var(--accent);
+        min-height: 1.3em;
+        text-align: center;
+      }
+
+      .cv-privacy {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        color: var(--text-soft);
+        font-size: 0.78rem;
+        margin-top: 0.4rem;
+      }
+      .cv-privacy svg {
+        color: var(--accent);
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+
+      @media (max-width: 640px) {
+        .cv-wrap {
+          padding: 2rem 1.2rem 1.8rem;
+        }
+        .cv-form-grid {
+          grid-template-columns: 1fr;
+        }
+        .cv-submit-row .btn {
+          min-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-nav">
+      <div class="container nav-inner">
+        <a
+          href="../../index.html"
+          class="logo-link"
+          aria-label="FastTechno Home"
+        >
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+
+        <ul class="nav-links" aria-label="Primary navigation">
+          <li>
+            <a href="../../index.html" class="nav-link" data-i18n="nav_home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#philosophy"
+              class="nav-link"
+              data-i18n="nav_philosophy"
+              >Philosophy</a
+            >
+          </li>
+          <li class="nav-dropdown">
+            <a
+              href="../../index.html#services"
+              class="nav-link"
+              data-i18n="nav_services"
+              >Services</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a href="../services/web-app-development.html"
+                  >Web &amp; App Development</a
+                >
+              </li>
+              <li>
+                <a href="../services/ecommerce-solutions.html"
+                  >E-commerce Solutions</a
+                >
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >IT &amp; Network Infrastructure</a
+                >
+              </li>
+              <li>
+                <a href="../../index.html#services"
+                  >Cybersecurity &amp; Standards</a
+                >
+              </li>
+              <li>
+                <a href="../services/digital-marketing-seo.html"
+                  >Digital Marketing &amp; SEO</a
+                >
+              </li>
+              <li>
+                <a href="../services/data-expert-consulting.html"
+                  >Data &amp; Expert Consulting</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-link" data-i18n="nav_careers">Careers</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="open-positions.html" data-i18n="nav_open_positions"
+                  >Open Position</a
+                >
+              </li>
+              <li><a href="talent.html" data-i18n="nav_talent">Talent</a></li>
+            </ul>
+          </li>
+          <li>
+            <a
+              href="../../index.html#showcase"
+              class="nav-link"
+              data-i18n="nav_showcase"
+              >Showcase</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#about"
+              class="nav-link"
+              data-i18n="nav_about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../index.html#contact"
+              class="nav-link"
+              data-i18n="nav_contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            type="button"
+            class="btn lang-toggle"
+            id="langToggle"
+            aria-label="Switch language"
+          >
+            AR
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ── Hero ──────────────────────────────────── -->
+      <section class="service-hero">
+        <div class="container">
+          <a href="talent.html" class="back-link">
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path
+                d="M14.78 5.22a.75.75 0 0 1 0 1.06L9.06 12l5.72 5.72a.75.75 0 0 1-1.06 1.06l-6.25-6.25a.75.75 0 0 1 0-1.06l6.25-6.25a.75.75 0 0 1 1.06 0Z"
+              />
+            </svg>
+            <span data-i18n="career_cv_back_talent"
+              >Back to Talent Network</span
+            >
+          </a>
+          <div class="service-hero-content reveal">
+            <span class="section-label" data-i18n="career_cv_label"
+              >Join the Network</span
+            >
+            <h1 data-i18n="career_cv_h1">Submit Your CV</h1>
+            <p data-i18n="career_cv_p">
+              Upload your CV below and our recruitment team will review your
+              profile and match you with the right opportunity within 48 hours.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Upload Form ────────────────────────────── -->
+      <section class="cv-section">
+        <div class="container">
+          <div class="cv-wrap reveal">
+            <div class="cv-form-head">
+              <span class="section-label" data-i18n="career_cv_form_label"
+                >Application Form</span
+              >
+              <h2 data-i18n="career_cv_form_h2">Tell Us About Yourself</h2>
+              <p data-i18n="career_cv_form_p">
+                All fields marked with * are required. Your information is kept
+                100% confidential.
+              </p>
+            </div>
+
+            <!-- FormSubmit: direct POST with file attachment support -->
+            <form
+              id="cvUploadForm"
+              action="https://formsubmit.co/info@fasttechno.online"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <!-- FormSubmit hidden config -->
+              <input
+                type="hidden"
+                name="_subject"
+                value="New CV Submission – FastTechno Talent Network"
+              />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://fasttechno.online/pages/talent.html"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+
+              <div class="cv-form-grid">
+                <div class="cv-form-group">
+                  <label for="cvFullName">Full Name *</label>
+                  <input
+                    id="cvFullName"
+                    name="full_name"
+                    type="text"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+
+                <div class="cv-form-group">
+                  <label for="cvEmail">Email Address *</label>
+                  <input
+                    id="cvEmail"
+                    name="email"
+                    type="email"
+                    placeholder="you@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="cv-form-group">
+                  <label for="cvPhone">Phone / WhatsApp *</label>
+                  <input
+                    id="cvPhone"
+                    name="phone"
+                    type="tel"
+                    placeholder="+962 7X XXX XXXX"
+                    required
+                  />
+                </div>
+
+                <div class="cv-form-group">
+                  <label for="cvExperience">Years of Experience *</label>
+                  <select id="cvExperience" name="experience" required>
+                    <option value="" disabled selected>Select range</option>
+                    <option value="0-1">0 – 1 year (Fresh Graduate)</option>
+                    <option value="1-3">1 – 3 years</option>
+                    <option value="3-5">3 – 5 years</option>
+                    <option value="5-10">5 – 10 years</option>
+                    <option value="10+">10+ years</option>
+                  </select>
+                </div>
+
+                <div class="cv-form-group cv-span-2">
+                  <label for="cvRole">Position / Specialization *</label>
+                  <input
+                    id="cvRole"
+                    name="position"
+                    type="text"
+                    placeholder="e.g. Frontend Developer, SAP Consultant, UI/UX Designer"
+                    required
+                  />
+                </div>
+
+                <div class="cv-form-group cv-span-2">
+                  <label for="cvNote">Brief Cover Note</label>
+                  <textarea
+                    id="cvNote"
+                    name="cover_note"
+                    placeholder="Tell us briefly about your background and what you're looking for…"
+                  ></textarea>
+                </div>
+
+                <div class="cv-form-group cv-span-2">
+                  <label>Upload Your CV *</label>
+                  <div class="cv-file-zone" id="cvFileZone">
+                    <input
+                      type="file"
+                      name="attachment"
+                      id="cvFile"
+                      accept=".pdf,.doc,.docx"
+                      required
+                    />
+                    <svg
+                      class="cv-file-icon"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="17 8 12 3 7 8" />
+                      <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                    <p class="cv-file-label">
+                      Click to browse or drag and drop
+                    </p>
+                    <p class="cv-file-hint">PDF, DOC or DOCX — max 10 MB</p>
+                    <p class="cv-file-name" id="cvFileName"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cv-submit-row">
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-lg submit-btn"
+                  data-i18n="career_cv_submit_btn"
+                >
+                  Submit My Application
+                </button>
+                <p class="cv-form-status" id="cvFormStatus"></p>
+                <p class="cv-privacy">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  Your information and CV are kept completely confidential and
+                  shared only with relevant hiring partners.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a
+          href="../../index.html"
+          class="logo-link"
+          aria-label="FastTechno Home"
+        >
+          <img
+            src="../../assets/media/logo.png"
+            alt="FastTechno logo"
+            class="site-logo"
+          />
+        </a>
+        <p class="footer-copy">© 2021-2026 FastTechno®</p>
+        <div class="country-badges" aria-label="Operating regions">
+          <span class="country-badge">Jordan</span>
+          <span class="country-badge">UAE</span>
+          <span class="country-badge">Saudi Arabia</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../../assets/js/i18n.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/service-pages.js"></script>
+
+    <script>
+      // Show selected file name in the upload zone
+      document.getElementById("cvFile").addEventListener("change", function () {
+        var nameEl = document.getElementById("cvFileName");
+        nameEl.textContent = this.files.length ? this.files[0].name : "";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e5]
+      - list "Primary navigation" [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: ../../index.html
+        - listitem [ref=e9]:
+          - link "Philosophy" [ref=e10] [cursor=pointer]:
+            - /url: ../../index.html#philosophy
+        - listitem [ref=e11]:
+          - link "Services" [ref=e12] [cursor=pointer]:
+            - /url: ../../index.html#services
+        - listitem [ref=e13]:
+          - link "Careers" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Open Position" [ref=e17] [cursor=pointer]:
+                - /url: ../careers/open-positions.html
+            - listitem [ref=e18]:
+              - link "Talent" [ref=e19] [cursor=pointer]:
+                - /url: ../careers/talent.html
+        - listitem [ref=e20]:
+          - link "Showcase" [ref=e21] [cursor=pointer]:
+            - /url: ../../index.html#showcase
+        - listitem [ref=e22]:
+          - link "About" [ref=e23] [cursor=pointer]:
+            - /url: ../../index.html#about
+        - listitem [ref=e24]:
+          - link "Contact" [ref=e25] [cursor=pointer]:
+            - /url: ../../index.html#contact
+      - button "Switch language" [ref=e27] [cursor=pointer]: AR
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - link "Back to Services" [ref=e31] [cursor=pointer]:
+        - /url: ../../index.html#services
+        - img [ref=e32]
+        - generic [ref=e34]: Back to Services
+      - generic [ref=e35]:
+        - generic [ref=e36]: Digital Marketing & SEO
+        - heading "Turn Visibility Into Qualified Revenue" [level=1] [ref=e37]
+        - paragraph [ref=e38]: We combine technical SEO, paid media, content strategy, and conversion optimization to grow traffic, leads, and sales with full-funnel clarity.
+        - link "Get a Free Growth Audit" [ref=e39] [cursor=pointer]:
+          - /url: ../../index.html#contact
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: "0"
+        - generic [ref=e44]: "%"
+        - generic [ref=e45]: Organic Growth Achieved
+      - generic [ref=e46]:
+        - generic [ref=e47]: "0"
+        - generic [ref=e48]: x
+        - generic [ref=e49]: Average ROAS
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e52]: +
+        - generic [ref=e53]: Active Campaigns
+      - generic [ref=e54]:
+        - generic [ref=e55]: "0"
+        - generic [ref=e56]: +
+        - generic [ref=e57]: Markets Served
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: What We Offer
+        - heading "Integrated Growth Services Across Every Channel" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - article [ref=e64]:
+          - img [ref=e66]
+          - heading "SEO Strategy & Roadmaps" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Keyword clustering, opportunity mapping, and quarterly SEO planning aligned to business goals and buyer intent.
+        - article [ref=e70]:
+          - img [ref=e72]
+          - heading "Technical SEO" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Site architecture, crawlability, Core Web Vitals, schema, indexing fixes, and performance optimization for ranking gains.
+        - article [ref=e76]:
+          - img [ref=e78]
+          - heading "Content Marketing" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Topic clusters, landing-page copy, blog pipelines, and editorial calendars designed for authority and lead quality.
+        - article [ref=e82]:
+          - img [ref=e84]
+          - heading "Performance Advertising" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Conversion-focused campaigns on Google, Meta, LinkedIn, and TikTok with tight audience targeting and budget control.
+        - article [ref=e88]:
+          - img [ref=e90]
+          - heading "Social Media Growth" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Platform-native content, community growth, paid social amplification, and monthly creative testing frameworks.
+        - article [ref=e94]:
+          - img [ref=e96]
+          - heading "Conversion Rate Optimization" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Heatmaps, user-journey audits, A/B testing, and landing-page iteration to improve lead-to-customer conversion.
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: Growth Stack
+        - heading "Tools We Use to Drive Measurable Results" [level=2] [ref=e104]
+      - generic [ref=e105]:
+        - tablist "Marketing channels" [ref=e106]:
+          - button "SEO" [ref=e107] [cursor=pointer]
+          - button "Paid Media" [ref=e108] [cursor=pointer]
+          - button "Social & Content" [ref=e109] [cursor=pointer]
+          - button "Analytics" [ref=e110] [cursor=pointer]
+        - generic [ref=e111]:
+          - article [ref=e112]:
+            - generic [ref=e113]: GA
+            - strong [ref=e114]: Google Search Console
+            - paragraph [ref=e115]: Indexing, technical health, and click-through optimization.
+          - article [ref=e116]:
+            - generic [ref=e117]: AH
+            - strong [ref=e118]: Ahrefs
+            - paragraph [ref=e119]: Keyword gaps, backlink intelligence, and authority tracking.
+          - article [ref=e120]:
+            - generic [ref=e121]: SM
+            - strong [ref=e122]: SEMrush
+            - paragraph [ref=e123]: SERP visibility and content opportunity monitoring.
+          - article [ref=e124]:
+            - generic [ref=e125]: SC
+            - strong [ref=e126]: Screaming Frog
+            - paragraph [ref=e127]: Site crawling for structured technical SEO audits.
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]: Our Process
+        - heading "How We Execute and Scale Campaigns" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - generic [ref=e137]:
+          - generic [ref=e138]: Week 1
+          - heading "Audit & Baseline" [level=3] [ref=e139]
+          - paragraph [ref=e140]: We map rankings, channel spend, conversion rates, and traffic quality to define a clear benchmark.
+        - generic [ref=e143]:
+          - generic [ref=e144]: Week 2
+          - heading "Strategy & Priorities" [level=3] [ref=e145]
+          - paragraph [ref=e146]: We prioritize the highest-impact SEO, ad, and conversion opportunities with a 90-day growth roadmap.
+        - generic [ref=e149]:
+          - generic [ref=e150]: Week 3-8
+          - heading "Execution Sprints" [level=3] [ref=e151]
+          - paragraph [ref=e152]: Technical fixes, campaign launches, creative tests, and content deployments run in weekly growth sprints.
+        - generic [ref=e155]:
+          - generic [ref=e156]: Week 9-12
+          - heading "Optimization Loop" [level=3] [ref=e157]
+          - paragraph [ref=e158]: We double down on winning channels and pause low-performing tactics using data-backed optimization cycles.
+        - generic [ref=e161]:
+          - generic [ref=e162]: Ongoing
+          - heading "Reporting & Scaling" [level=3] [ref=e163]
+          - paragraph [ref=e164]: You get transparent reports on rankings, CPL, ROAS, and pipeline impact with next-month actions.
+    - generic [ref=e167]:
+      - generic [ref=e168]: Why Choose Us
+      - heading "Growth Decisions Based on Revenue Signals, Not Guesswork" [level=2] [ref=e169]
+      - list [ref=e170]:
+        - listitem [ref=e171]:
+          - img [ref=e172]
+          - generic [ref=e174]: Weekly performance reviews with clear KPI ownership
+        - listitem [ref=e175]:
+          - img [ref=e176]
+          - generic [ref=e178]: Full-funnel tracking from click to qualified lead
+        - listitem [ref=e179]:
+          - img [ref=e180]
+          - generic [ref=e182]: Channel mix tuned around CAC and lifetime value
+        - listitem [ref=e183]:
+          - img [ref=e184]
+          - generic [ref=e186]: Transparent reporting dashboards you can trust
+        - listitem [ref=e187]:
+          - img [ref=e188]
+          - generic [ref=e190]: Fast testing cycles to discover winning campaigns early
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e194]: Key Benefits
+        - heading "Business Outcomes You Can Actually Measure" [level=2] [ref=e195]
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - generic [ref=e198]: 2.7x
+          - heading "Higher Lead Volume" [level=3] [ref=e199]
+          - paragraph [ref=e200]: Balanced SEO and paid acquisition to build stable inbound demand and consistent lead flow.
+        - generic [ref=e201]:
+          - generic [ref=e202]: 35%
+          - heading "Lower Acquisition Cost" [level=3] [ref=e203]
+          - paragraph [ref=e204]: Better targeting, better creatives, and tighter landing-page alignment reduce cost per qualified lead.
+        - generic [ref=e205]:
+          - generic [ref=e206]: 94%
+          - heading "Reporting Clarity" [level=3] [ref=e207]
+          - paragraph [ref=e208]: Channel-by-channel attribution and KPI mapping help leadership make confident budget decisions.
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e212]: Before & After
+        - heading "Performance Uplift You Can See" [level=2] [ref=e213]
+      - generic [ref=e214]:
+        - article [ref=e215]:
+          - generic [ref=e216]:
+            - text: Before
+            - img "Traffic performance before optimization" [ref=e217]
+            - img "Traffic performance after optimization" [ref=e218]
+            - generic:
+              - generic:
+                - img
+            - text: After
+          - generic [ref=e219]: Organic Sessions and CTR Improvement
+        - article [ref=e220]:
+          - generic [ref=e221]:
+            - text: Before
+            - img "Landing page before conversion optimization" [ref=e222]
+            - img "Landing page after conversion optimization" [ref=e223]
+            - generic:
+              - generic:
+                - img
+            - text: After
+          - generic [ref=e224]: Landing Page Conversion Rate Uplift
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - generic [ref=e228]: Case Studies
+        - heading "How We Built Repeatable Growth Systems" [level=2] [ref=e229]
+      - article [ref=e230]:
+        - figure [ref=e231]:
+          - img "Logistics marketing case study" [ref=e232]
+        - generic [ref=e233]:
+          - generic [ref=e234]: B2B Logistics
+          - heading "From Low Search Visibility to Pipeline Driver" [level=3] [ref=e235]
+          - paragraph [ref=e236]: We rebuilt the site structure, launched intent-based content, and implemented conversion tracking across every lead source.
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - strong [ref=e239]: +182%
+              - text: organic traffic in 5 months
+            - listitem [ref=e240]:
+              - strong [ref=e241]: +71%
+              - text: increase in qualified form leads
+            - listitem [ref=e242]:
+              - strong [ref=e243]: "-29%"
+              - text: cost per lead after ad optimization
+      - article [ref=e244]:
+        - figure [ref=e245]:
+          - img "Retail campaign case study" [ref=e246]
+        - generic [ref=e247]:
+          - generic [ref=e248]: Retail E-commerce
+          - heading "Scaling Paid Media With Better Creative Testing" [level=3] [ref=e249]
+          - paragraph [ref=e250]: We restructured campaigns, introduced weekly creative sprints, and aligned ad messaging to product-level landing pages.
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - strong [ref=e253]: 8.1x
+              - text: average ROAS over quarter
+            - listitem [ref=e254]:
+              - strong [ref=e255]: +46%
+              - text: increase in repeat purchase rate
+            - listitem [ref=e256]:
+              - strong [ref=e257]: "-33%"
+              - text: drop in cart abandonment from CRO
+      - article [ref=e258]:
+        - figure [ref=e259]:
+          - img "SaaS growth case study" [ref=e260]
+        - generic [ref=e261]:
+          - generic [ref=e262]: SaaS
+          - heading "From Clicks to Demo Requests With Funnel Optimization" [level=3] [ref=e263]
+          - paragraph [ref=e264]: We refined top-funnel ad traffic, rebuilt pricing-page copy, and installed event-driven analytics for sales-qualified leads.
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - strong [ref=e267]: +124%
+              - text: growth in demo bookings
+            - listitem [ref=e268]:
+              - strong [ref=e269]: +52%
+              - text: improvement in lead-to-opportunity rate
+            - listitem [ref=e270]:
+              - strong [ref=e271]: 3.4x
+              - text: pipeline value in 6 months
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]: Client Feedback
+        - heading "What Clients Say About Our Growth Team" [level=2] [ref=e276]
+      - generic [ref=e277]:
+        - blockquote [ref=e278]:
+          - generic "5 out of 5 stars" [ref=e279]:
+            - img [ref=e280]
+            - img [ref=e282]
+            - img [ref=e284]
+            - img [ref=e286]
+            - img [ref=e288]
+          - paragraph [ref=e290]: “Within 90 days, FastTechno helped us move from random posting to a real growth system. Lead quality improved and our sales team finally trusts the marketing pipeline.”
+          - generic [ref=e291]:
+            - generic [ref=e292]: R
+            - generic [ref=e293]:
+              - generic [ref=e294]: Rami Al-Ali
+              - generic [ref=e295]: Commercial Director, BuildAxis
+        - blockquote [ref=e296]:
+          - generic "5 out of 5 stars" [ref=e297]:
+            - img [ref=e298]
+            - img [ref=e300]
+            - img [ref=e302]
+            - img [ref=e304]
+            - img [ref=e306]
+          - paragraph [ref=e308]: “Their SEO work changed everything. Our main service pages now rank in top positions and inbound leads are up every single month.”
+          - generic [ref=e309]:
+            - generic [ref=e310]: L
+            - generic [ref=e311]:
+              - generic [ref=e312]: Lina Shaker
+              - generic [ref=e313]: Head of Marketing, NovaMed
+        - blockquote [ref=e314]:
+          - generic "5 out of 5 stars" [ref=e315]:
+            - img [ref=e316]
+            - img [ref=e318]
+            - img [ref=e320]
+            - img [ref=e322]
+            - img [ref=e324]
+          - paragraph [ref=e326]: “The dashboard reports are clear, honest, and tied to revenue. We always know what worked, what failed, and what to scale next.”
+          - generic [ref=e327]:
+            - generic [ref=e328]: M
+            - generic [ref=e329]:
+              - generic [ref=e330]: Maha Darwish
+              - generic [ref=e331]: Founder, Peak Interiors
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - generic [ref=e335]: Our Team
+        - heading "Specialists Behind the Growth Engine" [level=2] [ref=e336]
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: S
+          - heading "Salma Khoury" [level=3] [ref=e340]
+          - generic [ref=e341]: SEO Strategist
+          - paragraph [ref=e342]: Designs technical and content roadmaps that convert search intent into qualified pipeline.
+        - generic [ref=e343]:
+          - generic [ref=e344]: J
+          - heading "Jad Mahmoud" [level=3] [ref=e345]
+          - generic [ref=e346]: Performance Marketing Lead
+          - paragraph [ref=e347]: Manages paid channel scale while protecting CAC efficiency and profitability targets.
+        - generic [ref=e348]:
+          - generic [ref=e349]: "N"
+          - heading "Nour Saadeh" [level=3] [ref=e350]
+          - generic [ref=e351]: Content Growth Manager
+          - paragraph [ref=e352]: Builds editorial systems that increase topical authority and improve conversion quality.
+        - generic [ref=e353]:
+          - generic [ref=e354]: A
+          - heading "Adel Barakat" [level=3] [ref=e355]
+          - generic [ref=e356]: CRO & Analytics Specialist
+          - paragraph [ref=e357]: Connects behavior analytics with A/B testing to improve conversion performance across funnel stages.
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - generic [ref=e361]: Pricing
+        - heading "Flexible Plans for Different Growth Stages" [level=2] [ref=e362]
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - generic [ref=e365]:
+            - heading "Starter Growth" [level=3] [ref=e366]
+            - generic [ref=e367]: $1,500/month
+          - paragraph [ref=e368]: For businesses building their first reliable lead pipeline.
+          - list [ref=e369]:
+            - listitem [ref=e370]: ✓ SEO fundamentals and monthly technical checks
+            - listitem [ref=e371]: ✓ One paid channel campaign setup and management
+            - listitem [ref=e372]: ✓ Two conversion-optimized landing pages
+            - listitem [ref=e373]: ✓ Monthly performance dashboard and action plan
+            - listitem [ref=e374]: ✓ Bi-weekly strategy calls
+          - link "Get Started" [ref=e375] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - generic [ref=e376]:
+          - generic [ref=e377]: Most Popular
+          - generic [ref=e378]:
+            - heading "Growth Engine" [level=3] [ref=e379]
+            - generic [ref=e380]: $3,900/month
+          - paragraph [ref=e381]: For teams that need SEO, paid media, and CRO running together.
+          - list [ref=e382]:
+            - listitem [ref=e383]: ✓ Full technical SEO and content growth system
+            - listitem [ref=e384]: ✓ Multi-channel campaign management
+            - listitem [ref=e385]: ✓ Creative testing and audience optimization
+            - listitem [ref=e386]: ✓ Ongoing A/B testing for key landing pages
+            - listitem [ref=e387]: ✓ Weekly KPI review and roadmap updates
+          - link "Get Started" [ref=e388] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - heading "Scale Partner" [level=3] [ref=e391]
+            - generic [ref=e392]: Custom/retainer
+          - paragraph [ref=e393]: For high-growth brands needing deep execution and leadership.
+          - list [ref=e394]:
+            - listitem [ref=e395]: ✓ Dedicated growth squad and channel specialists
+            - listitem [ref=e396]: ✓ Attribution architecture and advanced analytics
+            - listitem [ref=e397]: ✓ Custom demand generation strategy by market
+            - listitem [ref=e398]: ✓ Sales and marketing funnel alignment workshops
+            - listitem [ref=e399]: ✓ Executive reporting and quarterly planning
+          - link "Contact Us" [ref=e400] [cursor=pointer]:
+            - /url: ../../index.html#contact
+    - generic [ref=e402]:
+      - generic [ref=e403]:
+        - generic [ref=e404]: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=e405]
+      - generic [ref=e406]:
+        - group [ref=e407]:
+          - generic "How long does SEO take to show results? +" [ref=e408] [cursor=pointer]
+        - group [ref=e409]:
+          - generic "Do you handle ad budget management too? +" [ref=e410] [cursor=pointer]
+        - group [ref=e411]:
+          - generic "How often do we receive reports? +" [ref=e412] [cursor=pointer]
+        - group [ref=e413]:
+          - generic "Can you work with our internal sales team? +" [ref=e414] [cursor=pointer]
+        - group [ref=e415]:
+          - generic "Are long-term contracts required? +" [ref=e416] [cursor=pointer]
+        - group [ref=e417]:
+          - generic "What do you need from us to start? +" [ref=e418] [cursor=pointer]
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - heading "Book a Free 30-Minute Growth Consultation" [level=2] [ref=e422]
+        - paragraph [ref=e423]: We will review your current channels, identify your fastest wins, and share a practical plan you can execute immediately.
+      - link "Book Your Audit" [ref=e424] [cursor=pointer]:
+        - /url: ../../index.html#contact
+    - generic [ref=e427]:
+      - heading "Ready to Scale Your Marketing With Clarity?" [level=2] [ref=e428]
+      - paragraph [ref=e429]: Let's build an integrated SEO and digital growth system that consistently turns attention into revenue.
+      - link "Get in Touch" [ref=e430] [cursor=pointer]:
+        - /url: ../../index.html#contact
+  - contentinfo [ref=e431]:
+    - generic [ref=e432]:
+      - link "FastTechno Home" [ref=e433] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e434]
+      - paragraph [ref=e435]: © 2021-2026 FastTechno®
+      - generic "Operating regions" [ref=e436]: Jordan UAE Saudi Arabia

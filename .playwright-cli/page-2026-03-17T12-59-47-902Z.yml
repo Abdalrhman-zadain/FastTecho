@@ -1,0 +1,217 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+        - /url: "#home"
+        - img "FastTechno logo" [ref=e5]
+      - list "Primary navigation" [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: "#home"
+        - listitem [ref=e9]:
+          - link "Philosophy" [ref=e10] [cursor=pointer]:
+            - /url: "#philosophy"
+        - listitem [ref=e11]:
+          - link "Services" [ref=e12] [cursor=pointer]:
+            - /url: "#services"
+        - listitem [ref=e13]:
+          - link "Careers" [active] [ref=e14] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - link "Open Position" [ref=e225] [cursor=pointer]:
+                - /url: pages/careers/open-positions.html
+            - listitem [ref=e226]:
+              - link "Talent" [ref=e227] [cursor=pointer]:
+                - /url: pages/careers/talent.html
+        - listitem [ref=e15]:
+          - link "Showcase" [ref=e16] [cursor=pointer]:
+            - /url: "#showcase"
+        - listitem [ref=e17]:
+          - link "About" [ref=e18] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e19]:
+          - link "Contact" [ref=e20] [cursor=pointer]:
+            - /url: "#contact"
+      - button "Switch language" [ref=e22] [cursor=pointer]: AR
+  - main [ref=e23]:
+    - generic [ref=e27]:
+      - generic [ref=e30]: Trusted IT Partner for Growth
+      - heading "Build Faster. Operate Smarter. Scale Securely." [level=1] [ref=e31]
+      - paragraph [ref=e32]: Welcome to Fast Technology Building, where we turn business goals into reliable software, proactive IT support, and measurable digital growth.
+      - generic [ref=e33]:
+        - link "Get Started" [ref=e34] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Our Services" [ref=e35] [cursor=pointer]:
+          - /url: "#services"
+    - generic [ref=e37]:
+      - article [ref=e38]:
+        - generic [ref=e39]: "0"
+        - text: Projects
+      - article [ref=e40]:
+        - generic [ref=e41]: "0"
+        - text: Countries
+      - article [ref=e42]:
+        - generic [ref=e43]: "0"
+        - text: Satisfaction
+      - article [ref=e44]:
+        - generic [ref=e45]: "0"
+        - text: Years
+    - generic [ref=e48]:
+      - generic [ref=e49]: Philosophy
+      - heading "Technology That Delivers Clear Business Value" [level=2] [ref=e50]
+      - paragraph [ref=e51]: "Our philosophy is simple: every solution must improve efficiency, reduce risk, and open new opportunities. We integrate a variety of services to facilitate operations across trading, manufacturing, retail, and medical sectors using the newest technologies in AI and machine learning."
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: Core Services
+        - heading "Solutions Built for Performance and Reliability" [level=2] [ref=e58]
+      - generic [ref=e59]:
+        - link [ref=e60] [cursor=pointer]:
+          - /url: pages/services/web-app-development.html
+          - article [ref=e61]:
+            - img [ref=e63]
+            - heading "Web & App Development" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Custom Web and Mobile application development, UI/UX design, and high-performance software systems.
+        - link [ref=e67] [cursor=pointer]:
+          - /url: pages/services/ecommerce-solutions.html
+          - article [ref=e68]:
+            - img [ref=e70]
+            - heading "E-commerce Solutions" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Comprehensive E-commerce development and operational management to scale your online business.
+        - article [ref=e74]:
+          - img [ref=e76]
+          - heading "IT & Network Infrastructure" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Constructing robust network infrastructure, seamless network integration, and proactive IT support.
+        - article [ref=e80]:
+          - img [ref=e82]
+          - heading "Cybersecurity & Standards" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Assessing security and privacy standards to protect your assets and ensure global compliance.
+        - link [ref=e86] [cursor=pointer]:
+          - /url: pages/services/digital-marketing-seo.html
+          - article [ref=e87]:
+            - img [ref=e89]
+            - heading "Digital Marketing & SEO" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Strategic SEO, Paid Advertising, and Social Media Marketing to drive measurable digital growth.
+        - link [ref=e93] [cursor=pointer]:
+          - /url: pages/services/data-expert-consulting.html
+          - article [ref=e94]:
+            - img [ref=e96]
+            - heading "Data & Expert Consulting" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Data analysis, business consulting, expert guidance, and specialized trading courses.
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: Showcase
+        - heading "Selected Work and Visual Highlights" [level=2] [ref=e104]
+      - generic "Project showcase slider" [ref=e105]:
+        - button "Previous slide" [ref=e106] [cursor=pointer]:
+          - img [ref=e107]
+        - generic [ref=e109]:
+          - figure [ref=e110]:
+            - img "Software dashboard interface project" [ref=e111]
+          - figure [ref=e112]:
+            - img "Business website development showcase" [ref=e113]
+          - figure [ref=e114]:
+            - img "Digital platform visual concept" [ref=e115]
+          - figure [ref=e116]:
+            - img "Enterprise app experience preview" [ref=e117]
+          - figure [ref=e118]:
+            - img "Technology solution delivery scene" [ref=e119]
+          - figure [ref=e120]:
+            - img "IT transformation project display" [ref=e121]
+          - figure [ref=e122]:
+            - img "Data-focused software interface" [ref=e123]
+          - figure [ref=e124]:
+            - img "Modern product UI implementation" [ref=e125]
+          - figure [ref=e126]:
+            - img "Custom platform user journey" [ref=e127]
+          - figure [ref=e128]:
+            - img "Business operations digitalization" [ref=e129]
+          - figure [ref=e130]:
+            - img "System monitoring and analytics" [ref=e131]
+          - figure [ref=e132]:
+            - img "Secure digital infrastructure scene" [ref=e133]
+        - button "Next slide" [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+      - generic "Slider pagination" [ref=e137]:
+        - button "Go to slide 1" [ref=e138] [cursor=pointer]
+        - button "Go to slide 2" [ref=e139] [cursor=pointer]
+        - button "Go to slide 3" [ref=e140] [cursor=pointer]
+        - button "Go to slide 4" [ref=e141] [cursor=pointer]
+        - button "Go to slide 5" [ref=e142] [cursor=pointer]
+        - button "Go to slide 6" [ref=e143] [cursor=pointer]
+        - button "Go to slide 7" [ref=e144] [cursor=pointer]
+        - button "Go to slide 8" [ref=e145] [cursor=pointer]
+        - button "Go to slide 9" [ref=e146] [cursor=pointer]
+        - button "Go to slide 10" [ref=e147] [cursor=pointer]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]: Company Video
+        - heading "Watch Our FastTechno Introduction" [level=2] [ref=e152]
+      - generic [ref=e154]: Your browser does not support the video tag.
+    - generic [ref=e156]:
+      - img "FastTechno team collaboration" [ref=e158]
+      - generic [ref=e159]:
+        - generic [ref=e160]: About
+        - heading "A Reliable Technology Team for Ambitious Businesses" [level=2] [ref=e161]
+        - paragraph [ref=e162]: At FastTechno®, we are committed to providing high-quality software applications, websites, and IT supporting services that streamline workflows and enhance productivity for businesses of all sizes.
+        - paragraph [ref=e163]: With a passion for innovation, we transform the way businesses operate by offering tailored tech solutions, from e-commerce development to assessing security and privacy standards.
+        - link "Discuss Your Project" [ref=e164] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]: Contact
+        - heading "Let’s Build Your Next Digital Milestone" [level=2] [ref=e170]
+        - paragraph [ref=e171]: Tell us what you need and our team will respond with a practical plan, clear timeline, and the right technical direction.
+        - generic [ref=e172]:
+          - link "WhatsApp Chat" [ref=e173] [cursor=pointer]:
+            - /url: https://wa.me/962797006780
+            - img [ref=e175]
+            - generic [ref=e177]: WhatsApp Chat
+          - link "info@fasttechno.online" [ref=e178] [cursor=pointer]:
+            - /url: mailto:info@fasttechno.online
+            - img [ref=e180]
+            - generic [ref=e182]: info@fasttechno.online
+        - generic "Social links" [ref=e183]:
+          - link "LinkedIn" [ref=e184] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/fasttechno-company-ba264a384?originalSubdomain=jo
+            - img [ref=e185]
+          - link "X" [ref=e187] [cursor=pointer]:
+            - /url: https://x.com/fasttechno25
+            - img [ref=e188]
+          - link "Instagram" [ref=e190] [cursor=pointer]:
+            - /url: https://www.instagram.com/fasttechnoo/
+            - img [ref=e191]
+          - link "TikTok" [ref=e193] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@fasttechno0
+            - img [ref=e194]
+          - link "Facebook" [ref=e196] [cursor=pointer]:
+            - /url: https://www.facebook.com/FastTechnoLLC/
+            - img [ref=e197]
+          - link "YouTube" [ref=e199] [cursor=pointer]:
+            - /url: https://www.youtube.com/@fasttechno-s
+            - img [ref=e200]
+      - form "Contact form" [ref=e202]:
+        - generic [ref=e203]:
+          - generic [ref=e204]: Name
+          - textbox "Name" [ref=e205]:
+            - /placeholder: Your name
+        - generic [ref=e206]:
+          - generic [ref=e207]: Email
+          - textbox "Email" [ref=e208]:
+            - /placeholder: you@company.com
+        - generic [ref=e209]:
+          - generic [ref=e210]: Message
+          - textbox "Message" [ref=e211]:
+            - /placeholder: Tell us about your goals
+        - button "Send Message" [ref=e212] [cursor=pointer]
+        - paragraph [ref=e213]
+  - contentinfo [ref=e214]:
+    - generic [ref=e215]:
+      - link "FastTechno Home" [ref=e216] [cursor=pointer]:
+        - /url: "#home"
+        - img "FastTechno logo" [ref=e217]
+      - paragraph [ref=e218]: © 2021-2026 FastTechno®
+      - generic "Operating regions" [ref=e219]:
+        - generic [ref=e220]: Jordan
+        - generic [ref=e221]: UAE
+        - generic [ref=e222]: Saudi Arabia

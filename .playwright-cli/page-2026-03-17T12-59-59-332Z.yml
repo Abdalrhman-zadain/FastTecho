@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e5]
+      - list "Primary navigation" [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: ../../index.html
+        - listitem [ref=e9]:
+          - link "Philosophy" [ref=e10] [cursor=pointer]:
+            - /url: ../../index.html#philosophy
+        - listitem [ref=e11]:
+          - link "Services" [ref=e12] [cursor=pointer]:
+            - /url: ../../index.html#services
+        - listitem [ref=e13]:
+          - link "Careers" [ref=e14] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "Open Position" [ref=e17] [cursor=pointer]:
+                - /url: ../careers/open-positions.html
+            - listitem [ref=e18]:
+              - link "Talent" [ref=e19] [cursor=pointer]:
+                - /url: ../careers/talent.html
+        - listitem [ref=e20]:
+          - link "Showcase" [ref=e21] [cursor=pointer]:
+            - /url: ../../index.html#showcase
+        - listitem [ref=e22]:
+          - link "About" [ref=e23] [cursor=pointer]:
+            - /url: ../../index.html#about
+        - listitem [ref=e24]:
+          - link "Contact" [ref=e25] [cursor=pointer]:
+            - /url: ../../index.html#contact
+      - button "Switch language" [ref=e27] [cursor=pointer]: AR
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - link "Back to Services" [ref=e31] [cursor=pointer]:
+        - /url: ../../index.html#services
+        - img [ref=e32]
+        - generic [ref=e34]: Back to Services
+      - generic [ref=e35]:
+        - generic [ref=e36]: Web & App Development
+        - heading "Custom Digital Solutions Built for Performance" [level=1] [ref=e37]
+        - paragraph [ref=e38]: We design and develop web applications, mobile apps, and software platforms that drive real business results - fast, scalable, and built to last.
+        - link "Start Your Project" [ref=e39] [cursor=pointer]:
+          - /url: ../../index.html#contact
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: "0"
+        - generic [ref=e44]: +
+        - generic [ref=e45]: Projects Delivered
+      - generic [ref=e46]:
+        - generic [ref=e47]: "0"
+        - generic [ref=e48]: +
+        - generic [ref=e49]: Countries Served
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e52]: "%"
+        - generic [ref=e53]: Client Satisfaction
+      - generic [ref=e54]:
+        - generic [ref=e55]: "0"
+        - generic [ref=e56]: ★
+        - generic [ref=e57]: Average Rating
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: What We Offer
+        - heading "End-to-End Development Services" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - article [ref=e64]:
+          - img [ref=e66]
+          - heading "Website Development" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Responsive marketing sites, landing pages, and corporate websites optimized for speed, SEO, and conversion.
+        - article [ref=e70]:
+          - img [ref=e72]
+          - heading "Mobile App Development" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Native and cross-platform mobile applications for iOS and Android, with intuitive UX and robust backends.
+        - article [ref=e76]:
+          - img [ref=e78]
+          - heading "Full-Stack Applications" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Complex SaaS platforms, dashboards, and enterprise systems with secure APIs, databases, and real-time capabilities.
+        - article [ref=e82]:
+          - img [ref=e84]
+          - heading "UI/UX Design" [level=3] [ref=e86]
+          - paragraph [ref=e87]: User research, wireframing, prototyping, and pixel-perfect design systems that create compelling user experiences.
+        - article [ref=e88]:
+          - img [ref=e90]
+          - heading "API & Integration" [level=3] [ref=e92]
+          - paragraph [ref=e93]: RESTful and GraphQL APIs, third-party integrations, payment gateways, and system connectivity solutions.
+        - article [ref=e94]:
+          - img [ref=e96]
+          - heading "Maintenance & Support" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Ongoing monitoring, performance optimization, security updates, and technical support to keep your systems running smoothly.
+    - generic [ref=e102]:
+      - generic [ref=e103]: Why Choose Us
+      - heading "We Don't Just Build Software — We Solve Business Problems" [level=2] [ref=e104]
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - img [ref=e107]
+          - generic [ref=e109]: Dedicated project manager for every engagement
+        - listitem [ref=e110]:
+          - img [ref=e111]
+          - generic [ref=e113]: Transparent timelines with weekly progress reports
+        - listitem [ref=e114]:
+          - img [ref=e115]
+          - generic [ref=e117]: Security-first approach with code reviews & testing
+        - listitem [ref=e118]:
+          - img [ref=e119]
+          - generic [ref=e121]: Post-launch support and performance optimization
+        - listitem [ref=e122]:
+          - img [ref=e123]
+          - generic [ref=e125]: Scalable architecture designed for future growth
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]: Key Benefits
+        - heading "What You Get When You Work With Us" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]: 99.9%
+          - heading "Uptime Guarantee" [level=3] [ref=e134]
+          - paragraph [ref=e135]: Our systems are engineered for maximum reliability and consistent performance around the clock.
+        - generic [ref=e136]:
+          - generic [ref=e137]: 2x
+          - heading "Faster Delivery" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Agile methodology and reusable components mean your product reaches the market faster.
+        - generic [ref=e140]:
+          - generic [ref=e141]: 100%
+          - heading "Code Ownership" [level=3] [ref=e142]
+          - paragraph [ref=e143]: You own every line of code. Full source code handover with comprehensive documentation.
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]: Our Work
+        - heading "Projects That Speak for Themselves" [level=2] [ref=e148]
+      - generic [ref=e149]:
+        - figure "Corporate Website Redesign" [ref=e150]:
+          - img "Business website development project" [ref=e151]
+          - generic [ref=e152]: Corporate Website Redesign
+        - figure "Enterprise App Platform" [ref=e153]:
+          - img "Enterprise app development" [ref=e154]
+          - generic [ref=e155]: Enterprise App Platform
+        - figure "SaaS Dashboard UI" [ref=e156]:
+          - img "Modern product UI" [ref=e157]
+          - generic [ref=e158]: SaaS Dashboard UI
+        - figure "E-commerce Platform" [ref=e159]:
+          - img "Custom platform development" [ref=e160]
+          - generic [ref=e161]: E-commerce Platform
+        - figure "Operations Digitalization" [ref=e162]:
+          - img "Business digitalization project" [ref=e163]
+          - generic [ref=e164]: Operations Digitalization
+        - figure "Analytics Dashboard" [ref=e165]:
+          - img "Analytics and monitoring system" [ref=e166]
+          - generic [ref=e167]: Analytics Dashboard
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]: Our Process
+        - heading "How We Deliver Your Project" [level=2] [ref=e172]
+      - generic [ref=e173]:
+        - generic [ref=e177]:
+          - generic [ref=e178]: Week 1–2
+          - heading "Discovery & Planning" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Requirements analysis, scope definition, and a detailed project roadmap with clear milestones.
+        - generic [ref=e183]:
+          - generic [ref=e184]: Week 3–4
+          - heading "Design & Prototyping" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Wireframes, high-fidelity mockups, and interactive prototypes validated with stakeholders.
+        - generic [ref=e189]:
+          - generic [ref=e190]: Week 5–10
+          - heading "Development & Testing" [level=3] [ref=e191]
+          - paragraph [ref=e192]: Agile sprints with CI/CD, code reviews, automated testing, and weekly progress demos.
+        - generic [ref=e195]:
+          - generic [ref=e196]: Week 11–12
+          - heading "QA & Optimization" [level=3] [ref=e197]
+          - paragraph [ref=e198]: Performance tuning, security audits, cross-browser / cross-device testing, and UAT sign-off.
+        - generic [ref=e201]:
+          - generic [ref=e202]: Launch & Beyond
+          - heading "Deployment & Support" [level=3] [ref=e203]
+          - paragraph [ref=e204]: Zero-downtime deployment, monitoring setup, documentation handover, and ongoing maintenance.
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]: Client Feedback
+        - heading "What Our Clients Say About Us" [level=2] [ref=e209]
+      - generic [ref=e210]:
+        - blockquote [ref=e211]:
+          - generic "5 out of 5 stars" [ref=e212]:
+            - img [ref=e213]
+            - img [ref=e215]
+            - img [ref=e217]
+            - img [ref=e219]
+            - img [ref=e221]
+          - paragraph [ref=e223]: “FastTechno transformed our outdated website into a modern, high-converting platform. The team was responsive, professional, and delivered ahead of schedule. Our leads doubled within the first month.”
+          - generic [ref=e224]:
+            - generic [ref=e225]: A
+            - generic [ref=e226]:
+              - generic [ref=e227]: Ahmad Al-Khatib
+              - generic [ref=e228]: CEO, TransJordan Logistics
+        - blockquote [ref=e229]:
+          - generic "5 out of 5 stars" [ref=e230]:
+            - img [ref=e231]
+            - img [ref=e233]
+            - img [ref=e235]
+            - img [ref=e237]
+            - img [ref=e239]
+          - paragraph [ref=e241]: “They built our inventory system from scratch and it's been flawless. Real-time tracking across all our stores, mobile access for managers, and the analytics dashboard saves us hours every week.”
+          - generic [ref=e242]:
+            - generic [ref=e243]: S
+            - generic [ref=e244]:
+              - generic [ref=e245]: Sara Mansour
+              - generic [ref=e246]: Operations Director, RetailPro Group
+        - blockquote [ref=e247]:
+          - generic "5 out of 5 stars" [ref=e248]:
+            - img [ref=e249]
+            - img [ref=e251]
+            - img [ref=e253]
+            - img [ref=e255]
+            - img [ref=e257]
+          - paragraph [ref=e259]: “The mobile app FastTechno built for our restaurant chain has been a game-changer. Online orders increased by 200% and customer complaints dropped significantly. Highly recommend their team.”
+          - generic [ref=e260]:
+            - generic [ref=e261]: K
+            - generic [ref=e262]:
+              - generic [ref=e263]: Khaled Nasser
+              - generic [ref=e264]: Founder, Taste & Go Restaurants
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]: Trusted By
+        - heading "Companies That Rely on Us" [level=2] [ref=e269]
+      - generic [ref=e271]:
+        - generic [ref=e272]: TransJordan Logistics
+        - generic [ref=e273]: RetailPro Group
+        - generic [ref=e274]: Taste & Go
+        - generic [ref=e275]: MedTech Solutions
+        - generic [ref=e276]: BuildSmart Inc.
+        - generic [ref=e277]: GreenEnergy Co.
+        - generic [ref=e278]: PayFlow Systems
+        - generic [ref=e279]: EduLearn Platform
+        - generic [ref=e280]: TransJordan Logistics
+        - generic [ref=e281]: RetailPro Group
+        - generic [ref=e282]: Taste & Go
+        - generic [ref=e283]: MedTech Solutions
+        - generic [ref=e284]: BuildSmart Inc.
+        - generic [ref=e285]: GreenEnergy Co.
+        - generic [ref=e286]: PayFlow Systems
+        - generic [ref=e287]: EduLearn Platform
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - generic [ref=e291]: Our Team
+        - heading "Meet the People Behind Your Project" [level=2] [ref=e292]
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]: O
+          - heading "Omar Haddad" [level=3] [ref=e296]
+          - generic [ref=e297]: Lead Full-Stack Developer
+          - paragraph [ref=e298]: 8+ years building scalable web apps with React, Node.js, and cloud platforms.
+        - generic [ref=e299]:
+          - generic [ref=e300]: L
+          - heading "Lina Khouri" [level=3] [ref=e301]
+          - generic [ref=e302]: Senior UI/UX Designer
+          - paragraph [ref=e303]: Crafts intuitive, research-driven interfaces used by thousands daily.
+        - generic [ref=e304]:
+          - generic [ref=e305]: R
+          - heading "Rami Salem" [level=3] [ref=e306]
+          - generic [ref=e307]: Mobile App Engineer
+          - paragraph [ref=e308]: Flutter & React Native specialist with 20+ apps shipped to App Store & Play Store.
+        - generic [ref=e309]:
+          - generic [ref=e310]: D
+          - heading "Dana Masri" [level=3] [ref=e311]
+          - generic [ref=e312]: QA & DevOps Lead
+          - paragraph [ref=e313]: Ensures every release is bulletproof with automated testing and CI/CD pipelines.
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]: Pricing
+        - heading "Transparent Packages for Every Stage" [level=2] [ref=e318]
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - heading "Starter" [level=3] [ref=e322]
+            - generic [ref=e323]: $2,500/project
+          - paragraph [ref=e324]: Perfect for MVPs, landing pages, and small business websites.
+          - list [ref=e325]:
+            - listitem [ref=e326]: ✓ Up to 5 pages / screens
+            - listitem [ref=e327]: ✓ Responsive design
+            - listitem [ref=e328]: ✓ Basic SEO setup
+            - listitem [ref=e329]: ✓ Contact form integration
+            - listitem [ref=e330]: ✓ 2 rounds of revisions
+            - listitem [ref=e331]: ✓ 1 month post-launch support
+          - link "Get Started" [ref=e332] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - generic [ref=e333]:
+          - generic [ref=e334]: Most Popular
+          - generic [ref=e335]:
+            - heading "Growth" [level=3] [ref=e336]
+            - generic [ref=e337]: $8,000/project
+          - paragraph [ref=e338]: For growing businesses needing custom apps and dashboards.
+          - list [ref=e339]:
+            - listitem [ref=e340]: ✓ Up to 15 pages / screens
+            - listitem [ref=e341]: ✓ Custom UI/UX design
+            - listitem [ref=e342]: ✓ Backend & API development
+            - listitem [ref=e343]: ✓ Database architecture
+            - listitem [ref=e344]: ✓ User authentication & roles
+            - listitem [ref=e345]: ✓ Payment gateway integration
+            - listitem [ref=e346]: ✓ 3 months post-launch support
+          - link "Get Started" [ref=e347] [cursor=pointer]:
+            - /url: ../../index.html#contact
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - heading "Enterprise" [level=3] [ref=e350]
+            - generic [ref=e351]: Custom/quote
+          - paragraph [ref=e352]: Full-scale platforms, SaaS products, and complex systems.
+          - list [ref=e353]:
+            - listitem [ref=e354]: ✓ Unlimited pages / screens
+            - listitem [ref=e355]: ✓ Full-stack architecture
+            - listitem [ref=e356]: ✓ Microservices & cloud deploy
+            - listitem [ref=e357]: ✓ Advanced security & compliance
+            - listitem [ref=e358]: ✓ Dedicated project manager
+            - listitem [ref=e359]: ✓ CI/CD & DevOps setup
+            - listitem [ref=e360]: ✓ 12 months priority support
+          - link "Contact Us" [ref=e361] [cursor=pointer]:
+            - /url: ../../index.html#contact
+    - generic [ref=e363]:
+      - generic [ref=e364]:
+        - generic [ref=e365]: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=e366]
+      - generic [ref=e367]:
+        - group [ref=e368]:
+          - generic "How long does a typical project take? +" [ref=e369] [cursor=pointer]
+        - group [ref=e370]:
+          - generic "Do I own the source code? +" [ref=e371] [cursor=pointer]
+        - group [ref=e372]:
+          - generic "What's your payment structure? +" [ref=e373] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Can you work with our existing team? +" [ref=e375] [cursor=pointer]
+        - group [ref=e376]:
+          - generic "Do you provide post-launch support? +" [ref=e377] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "What technologies do you specialize in? +" [ref=e379] [cursor=pointer]
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - heading "Book a Free 30-Minute Consultation" [level=2] [ref=e383]
+        - paragraph [ref=e384]: Let's discuss your project, explore possibilities, and give you a clear roadmap — no commitment required.
+      - link "Book Now — It's Free" [ref=e385] [cursor=pointer]:
+        - /url: ../../index.html#contact
+    - generic [ref=e388]:
+      - heading "Ready to Build Something Great?" [level=2] [ref=e389]
+      - paragraph [ref=e390]: Let's turn your idea into a secure, scalable, and high-performing digital product.
+      - link "Talk to Our Team" [ref=e391] [cursor=pointer]:
+        - /url: ../../index.html#contact
+  - contentinfo [ref=e392]:
+    - generic [ref=e393]:
+      - link "FastTechno Home" [ref=e394] [cursor=pointer]:
+        - /url: ../../index.html
+        - img "FastTechno logo" [ref=e395]
+      - paragraph [ref=e396]: © 2021-2026 FastTechno®
+      - generic "Operating regions" [ref=e397]: Jordan UAE Saudi Arabia
