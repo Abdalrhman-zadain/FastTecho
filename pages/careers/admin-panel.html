@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel - Add Jobs</title>
+    <link rel="stylesheet" href="../../assets/css/base.css" />
+    <link rel="stylesheet" href="../../assets/css/home.css" />
+    <link rel="stylesheet" href="../../assets/css/nav.css" />
+    <link rel="stylesheet" href="../../assets/css/responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- ...existing navigation... -->
+    </nav>
+    <main>
+      <h1>Admin Panel: Add New Job</h1>
+      <div id="loginSection">
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required /><br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required /><br />
+          <button type="submit">Login</button>
+        </form>
+        <div id="loginError" style="color: red; display: none">
+          Invalid username or password.
+        </div>
+      </div>
+      <div id="adminSection" style="display: none">
+        <form id="jobForm">
+          <label for="title">Job Title:</label>
+          <input type="text" id="title" name="title" required /><br />
+
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required></textarea
+          ><br />
+
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" required /><br />
+
+          <label for="type">Job Type:</label>
+          <select id="type" name="type">
+            <option value="Full-Time">Full-Time</option>
+            <option value="Part-Time">Part-Time</option>
+            <option value="Contract">Contract</option></select
+          ><br />
+
+          <button type="submit">Add Job</button>
+        </form>
+        <div id="jobList">
+          <h2>Available Jobs</h2>
+          <ul id="jobs"></ul>
+        </div>
+      </div>
+    </main>
+    <script src="../../assets/js/admin.js"></script>
+  </body>
+</html>
