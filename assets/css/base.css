@@ -43,9 +43,21 @@ body {
   font-family: "DM Sans", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at 12% 8%, rgba(76, 214, 255, 0.12), transparent 34%),
-    radial-gradient(circle at 84% 18%, rgba(207, 92, 255, 0.14), transparent 38%),
-    radial-gradient(circle at 72% 88%, rgba(255, 175, 89, 0.1), transparent 42%),
+    radial-gradient(
+      circle at 12% 8%,
+      rgba(76, 214, 255, 0.12),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 84% 18%,
+      rgba(207, 92, 255, 0.14),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 72% 88%,
+      rgba(255, 175, 89, 0.1),
+      transparent 42%
+    ),
     linear-gradient(165deg, #060e20 0%, #0b1326 42%, #10182d 100%);
   line-height: 1.7;
   overflow-x: hidden;
@@ -85,7 +97,11 @@ body::after {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(6, 14, 32, 0.08), rgba(6, 14, 32, 0.45));
+  background: linear-gradient(
+    180deg,
+    rgba(6, 14, 32, 0.08),
+    rgba(6, 14, 32, 0.45)
+  );
 }
 
 a {
@@ -214,7 +230,12 @@ p {
 
 .btn-primary {
   color: #001a2a;
-  background: linear-gradient(120deg, var(--accent) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+  background: linear-gradient(
+    120deg,
+    var(--accent) 0%,
+    var(--accent-2) 55%,
+    var(--accent-3) 100%
+  );
   box-shadow:
     0 14px 30px var(--accent-shadow),
     inset 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -243,7 +264,11 @@ p {
   border-color: var(--accent);
   color: #eef7ff;
   transform: translateY(-2px);
-  background: linear-gradient(145deg, rgba(76, 214, 255, 0.2), rgba(207, 92, 255, 0.14));
+  background: linear-gradient(
+    145deg,
+    rgba(76, 214, 255, 0.2),
+    rgba(207, 92, 255, 0.14)
+  );
 }
 
 .btn:focus-visible,

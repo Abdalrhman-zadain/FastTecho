@@ -36,7 +36,11 @@
       }
 
       .admin-card {
-        background: linear-gradient(145deg, rgba(23, 31, 51, 0.9), rgba(34, 42, 61, 0.84));
+        background: linear-gradient(
+          145deg,
+          rgba(23, 31, 51, 0.9),
+          rgba(34, 42, 61, 0.84)
+        );
         border: 1px solid var(--line);
         border-radius: var(--radius-md);
         padding: 1.3rem;
@@ -113,8 +117,16 @@
   <body>
     <header class="site-nav">
       <div class="container nav-inner">
-        <a href="../../index.html" class="logo-link" aria-label="trustTech Home">
-          <img src="../../assets/media/trustech.png" alt="trustTech logo" class="site-logo" />
+        <a
+          href="../../index.html"
+          class="logo-link"
+          aria-label="trustTech Home"
+        >
+          <img
+            src="../../assets/media/trustech.png"
+            alt="trustTech logo"
+            class="site-logo"
+          />
         </a>
 
         <ul class="nav-links" aria-label="Primary navigation">
@@ -123,7 +135,9 @@
             <a href="open-positions.html" class="nav-link">Open Positions</a>
           </li>
           <li><a href="talent.html" class="nav-link">Talent</a></li>
-          <li><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+          <li>
+            <a href="../../index.html#contact" class="nav-link">Contact</a>
+          </li>
         </ul>
 
         <div class="nav-actions"></div>
@@ -153,7 +167,9 @@
               <button type="submit" class="btn btn-primary">Login</button>
             </div>
           </form>
-          <div id="loginError" style="display: none">Invalid username or password.</div>
+          <div id="loginError" style="display: none">
+            Invalid username or password.
+          </div>
         </div>
 
         <div id="adminSection" class="admin-card reveal" style="display: none">

@@ -18,7 +18,11 @@
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   column-gap: 1.25rem;
-  background: linear-gradient(120deg, rgba(19, 27, 46, 0.82), rgba(17, 26, 43, 0.68));
+  background: linear-gradient(
+    120deg,
+    rgba(19, 27, 46, 0.82),
+    rgba(17, 26, 43, 0.68)
+  );
   border: 1px solid var(--line);
   border-radius: 24px;
   box-shadow:
@@ -42,8 +46,16 @@
   border-radius: inherit;
   pointer-events: none;
   background:
-    radial-gradient(circle at 8% 20%, rgba(76, 214, 255, 0.16), transparent 34%),
-    radial-gradient(circle at 92% 80%, rgba(207, 92, 255, 0.15), transparent 40%);
+    radial-gradient(
+      circle at 8% 20%,
+      rgba(76, 214, 255, 0.16),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 92% 80%,
+      rgba(207, 92, 255, 0.15),
+      transparent 40%
+    );
 }
 
 .logo-link {
@@ -95,7 +107,12 @@
   bottom: -5px;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3));
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    var(--accent-2),
+    var(--accent-3)
+  );
   border-radius: 2px;
   transition: width 0.3s ease;
 }
@@ -155,7 +172,11 @@
   transform: translateX(-50%) translateY(8px);
   min-width: 250px;
   padding: 0.55rem 0;
-  background: linear-gradient(145deg, rgba(19, 27, 46, 0.95), rgba(34, 42, 61, 0.92));
+  background: linear-gradient(
+    145deg,
+    rgba(19, 27, 46, 0.95),
+    rgba(34, 42, 61, 0.92)
+  );
   border-radius: 14px;
   border: 1px solid var(--line-strong);
   box-shadow: 0 20px 36px rgba(4, 10, 24, 0.44);
@@ -202,7 +223,11 @@
 
 .dropdown-menu li a:hover {
   color: #f7fbff;
-  background: linear-gradient(90deg, rgba(76, 214, 255, 0.18), rgba(207, 92, 255, 0.08));
+  background: linear-gradient(
+    90deg,
+    rgba(76, 214, 255, 0.18),
+    rgba(207, 92, 255, 0.08)
+  );
   padding-left: 1.45rem;
 }
 
@@ -227,7 +252,11 @@
 .lang-toggle:focus-visible {
   border-color: var(--accent);
   color: #eef9ff;
-  background: linear-gradient(135deg, rgba(76, 214, 255, 0.24), rgba(207, 92, 255, 0.2));
+  background: linear-gradient(
+    135deg,
+    rgba(76, 214, 255, 0.24),
+    rgba(207, 92, 255, 0.2)
+  );
 }
 
 .nav-link[href*="contact"] {
@@ -235,7 +264,12 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: linear-gradient(130deg, var(--accent) 0%, var(--accent-2) 58%, var(--accent-3) 100%);
+  background: linear-gradient(
+    130deg,
+    var(--accent) 0%,
+    var(--accent-2) 58%,
+    var(--accent-3) 100%
+  );
   color: #041628;
   padding: 0.65rem 1rem;
   box-shadow:
@@ -259,7 +293,11 @@
 
 .site-nav.nav-scrolled .nav-inner {
   min-height: calc(var(--nav-h) - 10px);
-  background: linear-gradient(130deg, rgba(11, 19, 38, 0.95), rgba(19, 27, 46, 0.92));
+  background: linear-gradient(
+    130deg,
+    rgba(11, 19, 38, 0.95),
+    rgba(19, 27, 46, 0.92)
+  );
   border-color: var(--line-strong);
   box-shadow: 0 12px 30px rgba(3, 9, 22, 0.55);
 }
@@ -278,7 +316,12 @@
 .scroll-progress .scroll-progress-fill {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--accent-3));
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    var(--accent-2),
+    var(--accent-3)
+  );
   box-shadow: 0 0 16px rgba(76, 214, 255, 0.65);
   transition: width 0.08s linear;
 }
