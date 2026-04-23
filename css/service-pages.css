@@ -1482,3 +1482,399 @@
     height: 220px;
   }
 }
+
+/* ========================================
+   Redesign Theme Overrides
+   ======================================== */
+
+.service-hero {
+  background:
+    radial-gradient(circle at 12% 12%, rgba(76, 214, 255, 0.2), transparent 34%),
+    radial-gradient(circle at 82% 18%, rgba(207, 92, 255, 0.16), transparent 38%),
+    linear-gradient(180deg, #0a1225 0%, #111b31 100%);
+}
+
+.service-hero-content h1 {
+  background: linear-gradient(110deg, #f8fbff 15%, var(--accent) 42%, var(--accent-2) 60%, var(--accent-3) 76%, #f8fbff 96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.service-hero-content p,
+.service-hero p {
+  color: #c7d4ee;
+}
+
+.back-link {
+  color: #d6ecff;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.service-hero-media,
+.why-choose-media,
+.video-walk-wrapper,
+.ba-item,
+.case-study-media,
+.project-item,
+.cta-box,
+.offering-card,
+.process-step,
+.benefit-card,
+.testimonial-card,
+.tech-card,
+.tl-card,
+.team-card,
+.pricing-card,
+.faq-item {
+  background: linear-gradient(145deg, rgba(23, 31, 51, 0.9), rgba(34, 42, 61, 0.84));
+  border-color: var(--line);
+  box-shadow: 0 18px 34px rgba(5, 10, 24, 0.34);
+}
+
+.offering-card:hover,
+.process-step:hover,
+.benefit-card:hover,
+.project-item:hover,
+.testimonial-card:hover,
+.tech-card:hover,
+.tl-card:hover,
+.team-card:hover,
+.pricing-card:hover,
+.faq-item[open],
+.service-hero-media:hover,
+.why-choose-media:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 24px 38px rgba(5, 10, 24, 0.42);
+}
+
+.service-icon,
+.hc-proof-icon,
+.hc-head-icon {
+  background: linear-gradient(135deg, rgba(76, 214, 255, 0.24), rgba(207, 92, 255, 0.2));
+  border-color: rgba(164, 230, 255, 0.46);
+  color: #eff9ff;
+}
+
+.tech-stack,
+.benefits-section,
+.testimonials-section,
+.team-section,
+.video-walk-section,
+.service-cta,
+.contact {
+  background: linear-gradient(180deg, rgba(16, 24, 45, 0.94), rgba(11, 19, 38, 0.96));
+}
+
+.project-showcase,
+.pricing-section,
+.before-after-section,
+.case-studies,
+.why-choose,
+.dev-timeline-section,
+.logos-section,
+.faq-section {
+  background: linear-gradient(180deg, rgba(11, 19, 38, 0.96), rgba(16, 24, 45, 0.96));
+}
+
+.stats-bar,
+.consult-banner {
+  background:
+    linear-gradient(130deg, rgba(76, 214, 255, 0.14), rgba(207, 92, 255, 0.1), rgba(255, 175, 89, 0.12)),
+    rgba(11, 19, 38, 0.9);
+  border-top-color: var(--line);
+  border-bottom-color: var(--line);
+}
+
+.tech-badge,
+.case-tag,
+.tl-week,
+.pricing-badge,
+.tech-tab-btn.active {
+  background: linear-gradient(130deg, var(--accent), var(--accent-2), var(--accent-3));
+  color: #071526;
+  border-color: transparent;
+}
+
+.tech-tab-btn {
+  color: #cad8f2;
+  border-color: var(--line);
+  background: rgba(19, 27, 46, 0.54);
+}
+
+.tech-tab-btn:hover {
+  border-color: var(--line-strong);
+  color: #f0f8ff;
+}
+
+.pricing-featured {
+  border-color: var(--line-strong);
+  box-shadow:
+    0 0 0 1px rgba(164, 230, 255, 0.4),
+    0 26px 42px rgba(5, 10, 24, 0.42);
+}
+
+.pricing-featured:hover {
+  box-shadow:
+    0 0 0 1px rgba(164, 230, 255, 0.55),
+    0 32px 46px rgba(5, 10, 24, 0.5);
+}
+
+.benefit-value,
+.stats-bar .stat-number,
+.stat-suffix,
+.pricing-price {
+  background: linear-gradient(130deg, var(--accent), var(--accent-2), var(--accent-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tl-dot,
+.team-avatar,
+.author-avatar,
+.ba-handle-circle {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2), var(--accent-3));
+  color: #061526;
+}
+
+.tl-track,
+.ba-handle-line {
+  background: linear-gradient(180deg, rgba(76, 214, 255, 0.55), rgba(207, 92, 255, 0.55));
+}
+
+.ba-slider::after {
+  background: linear-gradient(130deg, var(--accent), var(--accent-3));
+  color: #061526;
+}
+
+.logo-text {
+  color: rgba(238, 247, 255, 0.26);
+}
+
+.logo-text:hover {
+  color: var(--accent);
+}
+
+.case-highlights strong,
+.team-role,
+.pricing-features li::before,
+.testimonial-stars svg,
+.why-list svg {
+  color: var(--accent);
+  fill: currentColor;
+}
+
+.faq-question::after {
+  color: var(--accent);
+}
+
+.faq-question:hover {
+  color: #f5fbff;
+}
+
+.consult-copy p,
+.case-study-content p,
+.testimonial-text,
+.pricing-desc,
+.tech-card p,
+.faq-answer p,
+.team-card p,
+.ba-caption {
+  color: #c1d1ef;
+}
+
+.stats-bar .stat-label,
+.author-role,
+.case-highlights li,
+.pricing-features li,
+.tech-tab-btn,
+.tl-card p {
+  color: #bdcdeb;
+}
+
+.hc-proof-card,
+.hc-form-wrap,
+.hc-contact-item,
+.hc-map-wrap,
+.hc-response-note,
+.cv-wrap,
+.cv-file-zone,
+.tl-step-icon,
+.tl-perk-card,
+.tl-cta-card {
+  background: linear-gradient(145deg, rgba(23, 31, 51, 0.9), rgba(34, 42, 61, 0.84)) !important;
+  border-color: var(--line) !important;
+}
+
+.cv-file-zone:hover,
+.tl-perk-card:hover,
+.hc-contact-item:hover,
+.hc-proof-card:hover {
+  border-color: var(--line-strong) !important;
+}
+
+.hc-pill,
+.tl-cta-pill,
+.cv-form-head .section-label {
+  border-color: var(--line-strong) !important;
+}
+
+.hc-contact-icon.green,
+.hc-contact-icon.blue,
+.hc-contact-icon.indigo,
+.hc-contact-icon.red {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2)) !important;
+}
+
+/* ========================================
+   Careers Inline Style Harmonization
+   ======================================== */
+
+.tl-steps-section,
+.tl-cta-section,
+.cv-section {
+  background: linear-gradient(180deg, rgba(11, 19, 38, 0.97), rgba(16, 24, 45, 0.97)) !important;
+}
+
+.tl-perks-section,
+.hc-content {
+  background: linear-gradient(180deg, rgba(16, 24, 45, 0.95), rgba(11, 19, 38, 0.97)) !important;
+}
+
+.hc-page,
+.hc-hero {
+  background: linear-gradient(180deg, rgba(9, 16, 33, 0.98), rgba(16, 24, 45, 0.97)) !important;
+}
+
+.tl-steps-row::before {
+  background: linear-gradient(90deg, rgba(76, 214, 255, 0.85), rgba(207, 92, 255, 0.78), rgba(255, 175, 89, 0.7)) !important;
+}
+
+.tl-step h3,
+.hc-form-head h3,
+.cv-form-head h2,
+.hc-title {
+  color: #f4f8ff !important;
+}
+
+.hc-title,
+.cv-form-head h2 {
+  background: linear-gradient(120deg, #f7fbff 16%, var(--accent) 48%, var(--accent-2) 66%, #f7fbff 96%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.tl-step p,
+.tl-steps-head p,
+.tl-perks-head p,
+.tl-trust-item,
+.hc-sub,
+.hc-note-item,
+.hc-map-caption,
+.cv-form-head p,
+.cv-privacy,
+.cv-file-hint {
+  color: #c4d2ee !important;
+}
+
+.tl-step-num,
+.tl-perk-icon,
+.cv-file-name,
+.cv-form-status {
+  color: var(--accent) !important;
+}
+
+.tl-step-num {
+  background: rgba(11, 19, 38, 0.95) !important;
+  border-color: var(--line-strong) !important;
+}
+
+.tl-cta-trust,
+.hc-form-head,
+.cv-form-head {
+  border-color: var(--line) !important;
+}
+
+.tl-cta-pill,
+.hc-pill {
+  color: #ebf7ff !important;
+  background: rgba(19, 27, 46, 0.62) !important;
+}
+
+.hc-pill::before {
+  background: linear-gradient(130deg, var(--accent), var(--accent-3)) !important;
+}
+
+.hc-contact-label,
+.hc-contact-value,
+.hc-form-group label,
+.cv-form-group label,
+.cv-file-label {
+  color: #d9e4fb !important;
+}
+
+.hc-form-group input,
+.hc-form-group textarea,
+.hc-form-group select,
+.cv-form-group input,
+.cv-form-group textarea,
+.cv-form-group select {
+  background: rgba(19, 27, 46, 0.82) !important;
+  border-color: var(--line) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+}
+
+.hc-form-group input::placeholder,
+.hc-form-group textarea::placeholder,
+.cv-form-group input::placeholder,
+.cv-form-group textarea::placeholder {
+  color: rgba(187, 201, 207, 0.78) !important;
+}
+
+.hc-form-group input:focus,
+.hc-form-group textarea:focus,
+.hc-form-group select:focus,
+.cv-form-group input:focus,
+.cv-form-group textarea:focus,
+.cv-form-group select:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(76, 214, 255, 0.2) !important;
+  background: rgba(23, 31, 51, 0.92) !important;
+}
+
+.cv-file-zone {
+  background: rgba(19, 27, 46, 0.7) !important;
+  border-color: var(--line-strong) !important;
+}
+
+.cv-file-zone:hover {
+  background: linear-gradient(140deg, rgba(76, 214, 255, 0.16), rgba(207, 92, 255, 0.12)) !important;
+  border-color: var(--accent) !important;
+}
+
+.cv-file-icon,
+.hc-contact-icon,
+.tl-step-icon,
+.tl-perk-icon {
+  color: #eef7ff !important;
+}
+
+.hc-contact-icon {
+  border-color: rgba(164, 230, 255, 0.44) !important;
+}
+
+.hc-floating-cta {
+  background: linear-gradient(130deg, var(--accent), var(--accent-2), var(--accent-3)) !important;
+  color: #05192a !important;
+  border-color: transparent !important;
+}
+
+.hc-floating-cta:hover {
+  filter: saturate(1.07) brightness(1.04) !important;
+}

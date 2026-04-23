@@ -1,0 +1,176 @@
+---
+name: Circuit Tech System
+colors:
+  surface: "#0b1326"
+  surface-dim: "#0b1326"
+  surface-bright: "#31394d"
+  surface-container-lowest: "#060e20"
+  surface-container-low: "#131b2e"
+  surface-container: "#171f33"
+  surface-container-high: "#222a3d"
+  surface-container-highest: "#2d3449"
+  on-surface: "#dae2fd"
+  on-surface-variant: "#bbc9cf"
+  inverse-surface: "#dae2fd"
+  inverse-on-surface: "#283044"
+  outline: "#859399"
+  outline-variant: "#3c494e"
+  surface-tint: "#4cd6ff"
+  primary: "#a4e6ff"
+  on-primary: "#003543"
+  primary-container: "#00d1ff"
+  on-primary-container: "#00566a"
+  inverse-primary: "#00677f"
+  secondary: "#ecb2ff"
+  on-secondary: "#520071"
+  secondary-container: "#cf5cff"
+  on-secondary-container: "#480063"
+  tertiary: "#ffd4ac"
+  on-tertiary: "#4a2800"
+  tertiary-container: "#ffaf59"
+  on-tertiary-container: "#734200"
+  error: "#ffb4ab"
+  on-error: "#690005"
+  error-container: "#93000a"
+  on-error-container: "#ffdad6"
+  primary-fixed: "#b7eaff"
+  primary-fixed-dim: "#4cd6ff"
+  on-primary-fixed: "#001f28"
+  on-primary-fixed-variant: "#004e60"
+  secondary-fixed: "#f8d8ff"
+  secondary-fixed-dim: "#ecb2ff"
+  on-secondary-fixed: "#320047"
+  on-secondary-fixed-variant: "#74009f"
+  tertiary-fixed: "#ffdcbd"
+  tertiary-fixed-dim: "#ffb86f"
+  on-tertiary-fixed: "#2c1600"
+  on-tertiary-fixed-variant: "#693c00"
+  background: "#0b1326"
+  on-background: "#dae2fd"
+  surface-variant: "#2d3449"
+typography:
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 48px
+    fontWeight: "700"
+    lineHeight: "1.1"
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: "600"
+    lineHeight: "1.2"
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: "600"
+    lineHeight: "1.3"
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: "400"
+    lineHeight: "1.6"
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: "400"
+    lineHeight: "1.6"
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: "400"
+    lineHeight: "1.5"
+  label-caps:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: "700"
+    lineHeight: "1"
+    letterSpacing: 0.1em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  unit: 4px
+  xs: 4px
+  sm: 8px
+  md: 16px
+  lg: 24px
+  xl: 48px
+  xxl: 80px
+  gutter: 24px
+  margin: 40px
+---
+
+## Brand & Style
+
+This design system is built on the pillars of **connectivity, precision, and digital velocity**. It targets high-performance environments where technical sophistication meets professional reliability. The brand personality is "Advanced Humanist"—it is cutting-edge and futuristic, yet avoids the coldness of traditional "cyber" aesthetics by utilizing warm gradients and expansive whitespace.
+
+The visual style is a blend of **Minimalism and Glassmorphism**. We utilize the clarity of a minimalist layout to ensure data density remains readable, while employing glass-like layers and subtle backdrops to create a sense of depth and high-tech instrumentation. Subtle "circuit" motifs—linear accents with circular terminal points—are used sparingly to guide the eye and reinforce the theme of interconnected systems.
+
+## Colors
+
+The palette is anchored by a high-energy spectrum that transitions from **Electric Blue** to **Magenta** and finally to **Warm Orange**.
+
+- **Electric Blue**: Used for primary actions, success states, and the "start" of circuit traces.
+- **Magenta/Purple**: Acts as the bridge, used for secondary interactive elements and decorative depth.
+- **Warm Orange**: Reserved for highlight moments, warnings, or "terminal" points in the interface to draw immediate attention.
+
+The default mode is **Dark**, utilizing a deep navy-slate foundation rather than true black to maintain a sophisticated, "pro-tool" appearance. Light mode variants should preserve the vibrance of the gradients while using a cool-gray neutral palette to maintain professional gravity.
+
+## Typography
+
+Typography establishes a clear hierarchy between "Technical Narrative" and "Operational Data."
+
+**Space Grotesk** is used for headlines and labels. Its geometric, slightly eccentric letterforms evoke a sense of engineering and future-tech. It should be used for large displays and navigation elements.
+
+**Inter** is the workhorse for all body copy and data entry. Its neutral, highly legible design ensures that complex technical information is easily digestible. We utilize tighter tracking for headlines to feel "packed" and engineered, while body copy maintains generous line heights for better scanning.
+
+## Layout & Spacing
+
+The layout follows a **Fluid Grid** model with a 12-column structure for desktop. To maintain the "clean and futuristic" feel, we employ a generous outer margin (40px+) to frame the content, while keeping internal gutters at a standard 24px to suggest tightly integrated components.
+
+Spacing is based on a 4px baseline grid. Large "Macro-spacing" (80px+) is used between major sections to emphasize whitespace as a premium design element. Small "Micro-spacing" (4px, 8px) is used within components to create a sense of technical precision and data density.
+
+## Elevation & Depth
+
+Hierarchy is achieved through **Glassmorphism and Tonal Layering**. Instead of heavy shadows, we use:
+
+1.  **Backdrop Blurs**: Surfaces at higher elevations (like modals or floating navs) use a semi-transparent background with a 20px blur, allowing the vibrant colors behind to bleed through softly.
+2.  **Inner Glows**: To mimic high-tech screens, buttons and active cards feature a subtle 1px inner border (top/left) in a lighter tint of the primary color.
+3.  **Accent Outlines**: Low-elevation containers use a subtle, 1px border with 10% opacity, rather than shadows, to define their footprint without cluttering the UI.
+4.  **Gradient Depth**: The background uses a very subtle radial gradient moving from the core neutral color to a slightly darker shade at the corners, focusing the user's attention on the center of the viewport.
+
+## Shapes
+
+The design system uses a **Rounded** (Level 2) shape language. This provides a balance between the "organic" human element and "sharp" technical engineering.
+
+- **Standard Components**: (Buttons, Inputs) use a 0.5rem (8px) radius.
+- **Large Containers**: (Cards, Sections) use a 1rem (16px) radius.
+- **Circuit Terminals**: Icons and decorative "nodes" at the end of lines are always perfect circles (50% radius) to echo the logo's circuitry.
+
+## Components
+
+### Buttons
+
+Primary buttons feature a linear gradient from Electric Blue to Magenta. They use a "glow" hover state where the button appears to illuminate from beneath. Secondary buttons use a transparent background with a 1px gradient border.
+
+### Cards
+
+Cards are the primary structural unit. They should be styled with a subtle dark-glass effect—semi-transparent background with a thin, light-blue stroke. For high-priority cards, include a "circuit trace" (a thin vertical or horizontal line ending in a small circle) on one edge.
+
+### Input Fields
+
+Inputs are minimal: a bottom-only border that transitions from neutral to the Electric Blue gradient upon focus. Labels use the `label-caps` typography style to feel like a data readout.
+
+### Chips & Tags
+
+Chips are pill-shaped and utilize high-contrast backgrounds (Warm Orange or Electric Blue) with dark text to act as immediate visual flags.
+
+### Tech Motifs
+
+Integrate "trace lines" to connect related pieces of information. These lines should always be 1px wide, use 45-degree angles for turns, and terminate in a 4px solid circle. Use these as decorative separators or to lead the eye from a chart to its legend.

@@ -12,7 +12,7 @@
     if (contactForm) {
         var submitButton = contactForm.querySelector(".submit-btn");
         var formStatus = document.getElementById("formStatus");
-        var contactSubmitUrl = "https://formsubmit.co/ajax/info@fasttechno.online";
+        var contactSubmitUrl = "https://formsubmit.co/ajax/info@trustTech.online";
 
         contactForm.addEventListener("submit", async function (event) {
             event.preventDefault();

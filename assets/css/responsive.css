@@ -17,6 +17,15 @@
     grid-template-columns: 1fr;
   }
 
+  .philosophy-grid {
+    gap: 1.1rem;
+    padding: 1rem;
+  }
+
+  .philosophy-copy h2 {
+    max-width: none;
+  }
+
   .carousel {
     padding-inline: 2.8rem;
   }
@@ -42,11 +51,12 @@
     order: 3;
     justify-content: center;
     gap: 0.72rem 1rem;
-    padding-bottom: 0.2rem;
+    padding: 0.25rem 0.4rem 0.4rem;
+    border-top: 1px solid rgba(164, 230, 255, 0.2);
   }
 
   .hero {
-    padding-top: calc(var(--nav-h) + 4.8rem);
+    padding-top: calc(var(--nav-h) + 5.2rem);
   }
 }
 
@@ -56,7 +66,7 @@
   }
 
   .section {
-    padding: 3.8rem 0;
+    padding: 3.6rem 0;
   }
 
   .hero-actions {
@@ -70,6 +80,23 @@
   .stats-grid,
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .philosophy-copy {
+    padding: 1rem 0.95rem;
+  }
+
+  .philosophy-copy::before {
+    left: 0.85rem;
+    right: 0.85rem;
+  }
+
+  .philosophy-video {
+    padding: 0.55rem;
+  }
+
+  .philosophy-video video {
+    min-height: 220px;
   }
 
   .carousel {
@@ -88,6 +115,7 @@
   .footer-inner {
     justify-content: center;
     text-align: center;
+    gap: 0.8rem;
   }
 }
 

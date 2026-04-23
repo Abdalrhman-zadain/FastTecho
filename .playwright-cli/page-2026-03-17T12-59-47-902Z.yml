@@ -1,9 +1,9 @@
-- generic [ref=e1]:
+﻿- generic [ref=e1]:
   - banner [ref=e2]:
     - generic [ref=e3]:
-      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+      - link "trustTech Home" [ref=e4] [cursor=pointer]:
         - /url: "#home"
-        - img "FastTechno logo" [ref=e5]
+        - img "trustTech logo" [ref=e5]
       - list "Primary navigation" [ref=e6]:
         - listitem [ref=e7]:
           - link "Home" [ref=e8] [cursor=pointer]:
@@ -146,21 +146,21 @@
     - generic [ref=e149]:
       - generic [ref=e150]:
         - generic [ref=e151]: Company Video
-        - heading "Watch Our FastTechno Introduction" [level=2] [ref=e152]
+        - heading "Watch Our trustTech Introduction" [level=2] [ref=e152]
       - generic [ref=e154]: Your browser does not support the video tag.
     - generic [ref=e156]:
-      - img "FastTechno team collaboration" [ref=e158]
+      - img "trustTech team collaboration" [ref=e158]
       - generic [ref=e159]:
         - generic [ref=e160]: About
         - heading "A Reliable Technology Team for Ambitious Businesses" [level=2] [ref=e161]
-        - paragraph [ref=e162]: At FastTechno®, we are committed to providing high-quality software applications, websites, and IT supporting services that streamline workflows and enhance productivity for businesses of all sizes.
+        - paragraph [ref=e162]: At trustTechÂ®, we are committed to providing high-quality software applications, websites, and IT supporting services that streamline workflows and enhance productivity for businesses of all sizes.
         - paragraph [ref=e163]: With a passion for innovation, we transform the way businesses operate by offering tailored tech solutions, from e-commerce development to assessing security and privacy standards.
         - link "Discuss Your Project" [ref=e164] [cursor=pointer]:
           - /url: "#contact"
     - generic [ref=e167]:
       - generic [ref=e168]:
         - generic [ref=e169]: Contact
-        - heading "Let’s Build Your Next Digital Milestone" [level=2] [ref=e170]
+        - heading "Letâ€™s Build Your Next Digital Milestone" [level=2] [ref=e170]
         - paragraph [ref=e171]: Tell us what you need and our team will respond with a practical plan, clear timeline, and the right technical direction.
         - generic [ref=e172]:
           - link "WhatsApp Chat" [ref=e173] [cursor=pointer]:
@@ -185,7 +185,7 @@
             - /url: https://www.tiktok.com/@fasttechno0
             - img [ref=e194]
           - link "Facebook" [ref=e196] [cursor=pointer]:
-            - /url: https://www.facebook.com/FastTechnoLLC/
+            - /url: https://www.facebook.com/trustTechLLC/
             - img [ref=e197]
           - link "YouTube" [ref=e199] [cursor=pointer]:
             - /url: https://www.youtube.com/@fasttechno-s
@@ -207,10 +207,10 @@
         - paragraph [ref=e213]
   - contentinfo [ref=e214]:
     - generic [ref=e215]:
-      - link "FastTechno Home" [ref=e216] [cursor=pointer]:
+      - link "trustTech Home" [ref=e216] [cursor=pointer]:
         - /url: "#home"
-        - img "FastTechno logo" [ref=e217]
-      - paragraph [ref=e218]: © 2021-2026 FastTechno®
+        - img "trustTech logo" [ref=e217]
+      - paragraph [ref=e218]: Â© 2021-2026 trustTechÂ®
       - generic "Operating regions" [ref=e219]:
         - generic [ref=e220]: Jordan
         - generic [ref=e221]: UAE

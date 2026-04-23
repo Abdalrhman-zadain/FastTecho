@@ -1,9 +1,9 @@
-- generic [active] [ref=e1]:
+﻿- generic [active] [ref=e1]:
   - banner [ref=e2]:
     - generic [ref=e3]:
-      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+      - link "trustTech Home" [ref=e4] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e5]
+        - img "trustTech logo" [ref=e5]
       - list "Primary navigation" [ref=e6]:
         - listitem [ref=e7]:
           - link "Home" [ref=e8] [cursor=pointer]:
@@ -43,7 +43,7 @@
       - generic [ref=e35]:
         - generic [ref=e36]: Careers
         - heading "Open Positions" [level=1] [ref=e37]
-        - paragraph [ref=e38]: Join FastTechno and work with a team focused on engineering quality, business impact, and continuous growth.
+        - paragraph [ref=e38]: Join trustTech and work with a team focused on engineering quality, business impact, and continuous growth.
     - generic [ref=e40]:
       - generic [ref=e41]:
         - generic [ref=e42]: Current Openings
@@ -72,8 +72,8 @@
         - /url: hiring-consulting.html
   - contentinfo [ref=e63]:
     - generic [ref=e64]:
-      - link "FastTechno Home" [ref=e65] [cursor=pointer]:
+      - link "trustTech Home" [ref=e65] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e66]
-      - paragraph [ref=e67]: © 2021-2026 FastTechno®
+        - img "trustTech logo" [ref=e66]
+      - paragraph [ref=e67]: Â© 2021-2026 trustTechÂ®
       - generic "Operating regions" [ref=e68]: Jordan UAE Saudi Arabia

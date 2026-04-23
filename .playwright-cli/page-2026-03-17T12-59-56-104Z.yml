@@ -1,9 +1,9 @@
-- generic [active] [ref=e1]:
+﻿- generic [active] [ref=e1]:
   - banner [ref=e2]:
     - generic [ref=e3]:
-      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+      - link "trustTech Home" [ref=e4] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e5]
+        - img "trustTech logo" [ref=e5]
       - list "Primary navigation" [ref=e6]:
         - listitem [ref=e7]:
           - link "Home" [ref=e8] [cursor=pointer]:
@@ -61,7 +61,7 @@
         - generic [ref=e53]: Client Satisfaction
       - generic [ref=e54]:
         - generic [ref=e55]: "0"
-        - generic [ref=e56]: ★
+        - generic [ref=e56]: â˜…
         - generic [ref=e57]: Average Rating
     - generic [ref=e59]:
       - generic [ref=e60]:
@@ -94,7 +94,7 @@
           - paragraph [ref=e99]: Ongoing monitoring, performance optimization, security updates, and technical support to keep your systems running smoothly.
     - generic [ref=e102]:
       - generic [ref=e103]: Why Choose Us
-      - heading "We Don't Just Build Software — We Solve Business Problems" [level=2] [ref=e104]
+      - heading "We Don't Just Build Software â€” We Solve Business Problems" [level=2] [ref=e104]
       - list [ref=e105]:
         - listitem [ref=e106]:
           - img [ref=e107]
@@ -157,19 +157,19 @@
         - heading "How We Deliver Your Project" [level=2] [ref=e172]
       - generic [ref=e173]:
         - generic [ref=e177]:
-          - generic [ref=e178]: Week 1–2
+          - generic [ref=e178]: Week 1â€“2
           - heading "Discovery & Planning" [level=3] [ref=e179]
           - paragraph [ref=e180]: Requirements analysis, scope definition, and a detailed project roadmap with clear milestones.
         - generic [ref=e183]:
-          - generic [ref=e184]: Week 3–4
+          - generic [ref=e184]: Week 3â€“4
           - heading "Design & Prototyping" [level=3] [ref=e185]
           - paragraph [ref=e186]: Wireframes, high-fidelity mockups, and interactive prototypes validated with stakeholders.
         - generic [ref=e189]:
-          - generic [ref=e190]: Week 5–10
+          - generic [ref=e190]: Week 5â€“10
           - heading "Development & Testing" [level=3] [ref=e191]
           - paragraph [ref=e192]: Agile sprints with CI/CD, code reviews, automated testing, and weekly progress demos.
         - generic [ref=e195]:
-          - generic [ref=e196]: Week 11–12
+          - generic [ref=e196]: Week 11â€“12
           - heading "QA & Optimization" [level=3] [ref=e197]
           - paragraph [ref=e198]: Performance tuning, security audits, cross-browser / cross-device testing, and UAT sign-off.
         - generic [ref=e201]:
@@ -188,7 +188,7 @@
             - img [ref=e217]
             - img [ref=e219]
             - img [ref=e221]
-          - paragraph [ref=e223]: “FastTechno transformed our outdated website into a modern, high-converting platform. The team was responsive, professional, and delivered ahead of schedule. Our leads doubled within the first month.”
+          - paragraph [ref=e223]: â€œtrustTech transformed our outdated website into a modern, high-converting platform. The team was responsive, professional, and delivered ahead of schedule. Our leads doubled within the first month.â€
           - generic [ref=e224]:
             - generic [ref=e225]: A
             - generic [ref=e226]:
@@ -201,7 +201,7 @@
             - img [ref=e235]
             - img [ref=e237]
             - img [ref=e239]
-          - paragraph [ref=e241]: “They built our inventory system from scratch and it's been flawless. Real-time tracking across all our stores, mobile access for managers, and the analytics dashboard saves us hours every week.”
+          - paragraph [ref=e241]: â€œThey built our inventory system from scratch and it's been flawless. Real-time tracking across all our stores, mobile access for managers, and the analytics dashboard saves us hours every week.â€
           - generic [ref=e242]:
             - generic [ref=e243]: S
             - generic [ref=e244]:
@@ -214,7 +214,7 @@
             - img [ref=e253]
             - img [ref=e255]
             - img [ref=e257]
-          - paragraph [ref=e259]: “The mobile app FastTechno built for our restaurant chain has been a game-changer. Online orders increased by 200% and customer complaints dropped significantly. Highly recommend their team.”
+          - paragraph [ref=e259]: â€œThe mobile app trustTech built for our restaurant chain has been a game-changer. Online orders increased by 200% and customer complaints dropped significantly. Highly recommend their team.â€
           - generic [ref=e260]:
             - generic [ref=e261]: K
             - generic [ref=e262]:
@@ -277,12 +277,12 @@
             - generic [ref=e323]: $2,500/project
           - paragraph [ref=e324]: Perfect for MVPs, landing pages, and small business websites.
           - list [ref=e325]:
-            - listitem [ref=e326]: ✓ Up to 5 pages / screens
-            - listitem [ref=e327]: ✓ Responsive design
-            - listitem [ref=e328]: ✓ Basic SEO setup
-            - listitem [ref=e329]: ✓ Contact form integration
-            - listitem [ref=e330]: ✓ 2 rounds of revisions
-            - listitem [ref=e331]: ✓ 1 month post-launch support
+            - listitem [ref=e326]: âœ“ Up to 5 pages / screens
+            - listitem [ref=e327]: âœ“ Responsive design
+            - listitem [ref=e328]: âœ“ Basic SEO setup
+            - listitem [ref=e329]: âœ“ Contact form integration
+            - listitem [ref=e330]: âœ“ 2 rounds of revisions
+            - listitem [ref=e331]: âœ“ 1 month post-launch support
           - link "Get Started" [ref=e332] [cursor=pointer]:
             - /url: ../../index.html#contact
         - generic [ref=e333]:
@@ -292,13 +292,13 @@
             - generic [ref=e337]: $8,000/project
           - paragraph [ref=e338]: For growing businesses needing custom apps and dashboards.
           - list [ref=e339]:
-            - listitem [ref=e340]: ✓ Up to 15 pages / screens
-            - listitem [ref=e341]: ✓ Custom UI/UX design
-            - listitem [ref=e342]: ✓ Backend & API development
-            - listitem [ref=e343]: ✓ Database architecture
-            - listitem [ref=e344]: ✓ User authentication & roles
-            - listitem [ref=e345]: ✓ Payment gateway integration
-            - listitem [ref=e346]: ✓ 3 months post-launch support
+            - listitem [ref=e340]: âœ“ Up to 15 pages / screens
+            - listitem [ref=e341]: âœ“ Custom UI/UX design
+            - listitem [ref=e342]: âœ“ Backend & API development
+            - listitem [ref=e343]: âœ“ Database architecture
+            - listitem [ref=e344]: âœ“ User authentication & roles
+            - listitem [ref=e345]: âœ“ Payment gateway integration
+            - listitem [ref=e346]: âœ“ 3 months post-launch support
           - link "Get Started" [ref=e347] [cursor=pointer]:
             - /url: ../../index.html#contact
         - generic [ref=e348]:
@@ -307,13 +307,13 @@
             - generic [ref=e351]: Custom/quote
           - paragraph [ref=e352]: Full-scale platforms, SaaS products, and complex systems.
           - list [ref=e353]:
-            - listitem [ref=e354]: ✓ Unlimited pages / screens
-            - listitem [ref=e355]: ✓ Full-stack architecture
-            - listitem [ref=e356]: ✓ Microservices & cloud deploy
-            - listitem [ref=e357]: ✓ Advanced security & compliance
-            - listitem [ref=e358]: ✓ Dedicated project manager
-            - listitem [ref=e359]: ✓ CI/CD & DevOps setup
-            - listitem [ref=e360]: ✓ 12 months priority support
+            - listitem [ref=e354]: âœ“ Unlimited pages / screens
+            - listitem [ref=e355]: âœ“ Full-stack architecture
+            - listitem [ref=e356]: âœ“ Microservices & cloud deploy
+            - listitem [ref=e357]: âœ“ Advanced security & compliance
+            - listitem [ref=e358]: âœ“ Dedicated project manager
+            - listitem [ref=e359]: âœ“ CI/CD & DevOps setup
+            - listitem [ref=e360]: âœ“ 12 months priority support
           - link "Contact Us" [ref=e361] [cursor=pointer]:
             - /url: ../../index.html#contact
     - generic [ref=e363]:
@@ -336,8 +336,8 @@
     - generic [ref=e381]:
       - generic [ref=e382]:
         - heading "Book a Free 30-Minute Consultation" [level=2] [ref=e383]
-        - paragraph [ref=e384]: Let's discuss your project, explore possibilities, and give you a clear roadmap — no commitment required.
-      - link "Book Now — It's Free" [ref=e385] [cursor=pointer]:
+        - paragraph [ref=e384]: Let's discuss your project, explore possibilities, and give you a clear roadmap â€” no commitment required.
+      - link "Book Now â€” It's Free" [ref=e385] [cursor=pointer]:
         - /url: ../../index.html#contact
     - generic [ref=e388]:
       - heading "Ready to Build Something Great?" [level=2] [ref=e389]
@@ -346,8 +346,8 @@
         - /url: ../../index.html#contact
   - contentinfo [ref=e392]:
     - generic [ref=e393]:
-      - link "FastTechno Home" [ref=e394] [cursor=pointer]:
+      - link "trustTech Home" [ref=e394] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e395]
-      - paragraph [ref=e396]: © 2021-2026 FastTechno®
+        - img "trustTech logo" [ref=e395]
+      - paragraph [ref=e396]: Â© 2021-2026 trustTechÂ®
       - generic "Operating regions" [ref=e397]: Jordan UAE Saudi Arabia

@@ -1,9 +1,9 @@
-- generic [active] [ref=e1]:
+﻿- generic [active] [ref=e1]:
   - banner [ref=e2]:
     - generic [ref=e3]:
-      - link "FastTechno Home" [ref=e4] [cursor=pointer]:
+      - link "trustTech Home" [ref=e4] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e5]
+        - img "trustTech logo" [ref=e5]
       - list "Primary navigation" [ref=e6]:
         - listitem [ref=e7]:
           - link "Home" [ref=e8] [cursor=pointer]:
@@ -272,7 +272,7 @@
             - img [ref=e284]
             - img [ref=e286]
             - img [ref=e288]
-          - paragraph [ref=e290]: “Within 90 days, FastTechno helped us move from random posting to a real growth system. Lead quality improved and our sales team finally trusts the marketing pipeline.”
+          - paragraph [ref=e290]: â€œWithin 90 days, trustTech helped us move from random posting to a real growth system. Lead quality improved and our sales team finally trusts the marketing pipeline.â€
           - generic [ref=e291]:
             - generic [ref=e292]: R
             - generic [ref=e293]:
@@ -285,7 +285,7 @@
             - img [ref=e302]
             - img [ref=e304]
             - img [ref=e306]
-          - paragraph [ref=e308]: “Their SEO work changed everything. Our main service pages now rank in top positions and inbound leads are up every single month.”
+          - paragraph [ref=e308]: â€œTheir SEO work changed everything. Our main service pages now rank in top positions and inbound leads are up every single month.â€
           - generic [ref=e309]:
             - generic [ref=e310]: L
             - generic [ref=e311]:
@@ -298,7 +298,7 @@
             - img [ref=e320]
             - img [ref=e322]
             - img [ref=e324]
-          - paragraph [ref=e326]: “The dashboard reports are clear, honest, and tied to revenue. We always know what worked, what failed, and what to scale next.”
+          - paragraph [ref=e326]: â€œThe dashboard reports are clear, honest, and tied to revenue. We always know what worked, what failed, and what to scale next.â€
           - generic [ref=e327]:
             - generic [ref=e328]: M
             - generic [ref=e329]:
@@ -340,11 +340,11 @@
             - generic [ref=e367]: $1,500/month
           - paragraph [ref=e368]: For businesses building their first reliable lead pipeline.
           - list [ref=e369]:
-            - listitem [ref=e370]: ✓ SEO fundamentals and monthly technical checks
-            - listitem [ref=e371]: ✓ One paid channel campaign setup and management
-            - listitem [ref=e372]: ✓ Two conversion-optimized landing pages
-            - listitem [ref=e373]: ✓ Monthly performance dashboard and action plan
-            - listitem [ref=e374]: ✓ Bi-weekly strategy calls
+            - listitem [ref=e370]: âœ“ SEO fundamentals and monthly technical checks
+            - listitem [ref=e371]: âœ“ One paid channel campaign setup and management
+            - listitem [ref=e372]: âœ“ Two conversion-optimized landing pages
+            - listitem [ref=e373]: âœ“ Monthly performance dashboard and action plan
+            - listitem [ref=e374]: âœ“ Bi-weekly strategy calls
           - link "Get Started" [ref=e375] [cursor=pointer]:
             - /url: ../../index.html#contact
         - generic [ref=e376]:
@@ -354,11 +354,11 @@
             - generic [ref=e380]: $3,900/month
           - paragraph [ref=e381]: For teams that need SEO, paid media, and CRO running together.
           - list [ref=e382]:
-            - listitem [ref=e383]: ✓ Full technical SEO and content growth system
-            - listitem [ref=e384]: ✓ Multi-channel campaign management
-            - listitem [ref=e385]: ✓ Creative testing and audience optimization
-            - listitem [ref=e386]: ✓ Ongoing A/B testing for key landing pages
-            - listitem [ref=e387]: ✓ Weekly KPI review and roadmap updates
+            - listitem [ref=e383]: âœ“ Full technical SEO and content growth system
+            - listitem [ref=e384]: âœ“ Multi-channel campaign management
+            - listitem [ref=e385]: âœ“ Creative testing and audience optimization
+            - listitem [ref=e386]: âœ“ Ongoing A/B testing for key landing pages
+            - listitem [ref=e387]: âœ“ Weekly KPI review and roadmap updates
           - link "Get Started" [ref=e388] [cursor=pointer]:
             - /url: ../../index.html#contact
         - generic [ref=e389]:
@@ -367,11 +367,11 @@
             - generic [ref=e392]: Custom/retainer
           - paragraph [ref=e393]: For high-growth brands needing deep execution and leadership.
           - list [ref=e394]:
-            - listitem [ref=e395]: ✓ Dedicated growth squad and channel specialists
-            - listitem [ref=e396]: ✓ Attribution architecture and advanced analytics
-            - listitem [ref=e397]: ✓ Custom demand generation strategy by market
-            - listitem [ref=e398]: ✓ Sales and marketing funnel alignment workshops
-            - listitem [ref=e399]: ✓ Executive reporting and quarterly planning
+            - listitem [ref=e395]: âœ“ Dedicated growth squad and channel specialists
+            - listitem [ref=e396]: âœ“ Attribution architecture and advanced analytics
+            - listitem [ref=e397]: âœ“ Custom demand generation strategy by market
+            - listitem [ref=e398]: âœ“ Sales and marketing funnel alignment workshops
+            - listitem [ref=e399]: âœ“ Executive reporting and quarterly planning
           - link "Contact Us" [ref=e400] [cursor=pointer]:
             - /url: ../../index.html#contact
     - generic [ref=e402]:
@@ -404,8 +404,8 @@
         - /url: ../../index.html#contact
   - contentinfo [ref=e431]:
     - generic [ref=e432]:
-      - link "FastTechno Home" [ref=e433] [cursor=pointer]:
+      - link "trustTech Home" [ref=e433] [cursor=pointer]:
         - /url: ../../index.html
-        - img "FastTechno logo" [ref=e434]
-      - paragraph [ref=e435]: © 2021-2026 FastTechno®
+        - img "trustTech logo" [ref=e434]
+      - paragraph [ref=e435]: Â© 2021-2026 trustTechÂ®
       - generic "Operating regions" [ref=e436]: Jordan UAE Saudi Arabia
